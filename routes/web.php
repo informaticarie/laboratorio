@@ -19,6 +19,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',HomeController::class);
 Route::get('Nosotros',[HomeController::class,'Nosotros']);
 Route::get('Paquetes',[HomeController::class,'Paquetes']);
-Route::get('Covid',[HomeController::class,'Covid']);
+//Route::get('Covid',[HomeController::class,'Covid']);
 Route::get('Contacto',[HomeController::class,'Contacto']);
 

@@ -105,7 +105,7 @@
                                         Paquetes
                                     </a>
                                 </li>
-                                <li style="margin-left: 5px;margin-right: 5px;">
+                                <!--<li style="margin-left: 5px;margin-right: 5px;">
                                     <a id="titulo3" href="{{ url('Covid') }}"
                                         class=" Cambiando nav-link text-white" align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
@@ -114,7 +114,7 @@
                                         <i class="fa-solid fa-shield-virus fa-xl"></i><br>
                                         Covid-19
                                     </a>
-                                </li>
+                                </li>-->
                                 <li style="margin-left: 5px;margin-right: 5px;">
                                     <a id="titulo4" href="{{ url('Contacto') }}"
                                         class="Cambiando nav-link text-white" align="center">

@@ -11,15 +11,24 @@
                     aria-current="true"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
                     class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 2"
+                    class=""></button>
+
+
 
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="bd-placeholder-img" width="100%" height="25%" src="img/Propias/Banner1.png">
+                    <img class="bd-placeholder-img" width="100%" height="25%" src="img/Banners/Banner1.jpeg">
                 </div>
                 <div class="carousel-item ">
-                    <img class="bd-placeholder-img" width="100%" height="25%" src="img/Propias/Banner2.png">
+                    <img class="bd-placeholder-img" width="100%" height="25%" src="img/Banners/Banner2.jpeg">
                 </div>
+
+                <div class="carousel-item ">
+                    <img class="bd-placeholder-img" width="100%" height="25%" src="img/Banners/Banner3.jpeg">
+                </div>
+
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -39,89 +48,281 @@
         <div class="row" style="margin-top: 4vw;">
 
             <div class="col-8">
-                <img src="img/Botones/Promociones2.gif" class="img-fluid" style="width: 40%;margin-bottom: 10px;">
-                <div class="row justify-content-between">
-                    @foreach ($PaquetesPromocion as $item)
-                        <div class="col-4 ">
-                            <div class="card mb-4 ">
-                                <a class="btn-primary" href="#!"><img class="card-img-top"
-                                        onclick='add("{{ $item->NombrePaquetes }}")'
-                                        src={{ asset('img/Paquetes/' . $item->NombrePaquetes . '.jpg') }} alt="..."></a>
-                                <div class="card-body">
 
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        Reiciendis
-                                        aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
-                                </div>
+                <img src="img/Botones/Covid.png" class="img-fluid" style="width: 40%;margin-bottom: 10px;">
+                <div class="row justify-content-between">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner">
+
+
+                                {!! $agregarCovi !!}
+
+
                             </div>
                         </div>
-                    @endforeach
-
+                    </div>
 
 
 
                 </div>
+
+                <img src="img/Botones/Promociones2.gif" class="img-fluid" style="width: 40%;margin-bottom: 10px;">
+                <div class="row justify-content-between">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+
+
+                            {!! $agregaPaque !!}
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
 
             </div>
 
             <div class="col-4">
-                <img src="img/Botones/Redes.gif" class="img-fluid" style="width: 85%;margin-bottom: 10px;">
-                <div class="card mb-4">
-                    <iframe
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FLaboratorioPromedica.Pachuca%2Fposts%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowfullscreen="true"
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                    </iframe>
-                   
+                <img src="img/Botones/Redes.gif" class="img-fluid" style="margin-bottom: 10px;">
+                <div class="card mb-4" style="border : 0">
+                    <div data-href="https://facebook.com/LaboratorioPromedica.Pachuca/" data-tabs="timeline"
+                        data-width="300" data-height="500" data-small-header="true" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true" class="fb-page fb_iframe_widget"
+                        fb-xfbml-state="rendered"
+                        fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=113869198637480&amp;container_width=478&amp;height=500&amp;hide_cover=false&amp;href=https%3A%2F%2Ffacebook.com%2FLaboratorioPromedica.Pachuca%2F&amp;locale=es_LA&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=300">
+                        <span style="vertical-align: bottom; width: 300px; height: 500px;"><iframe name="f2dc68ae2f62744"
+                                width="300px" height="500px" data-testid="fb:page Facebook Social Plugin"
+                                title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                src="https://www.facebook.com/v14.0/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2e4a7ea84841a4%26domain%3Ddevelopers.facebook.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff262eb2dbe60b0c%26relation%3Dparent.parent&amp;container_width=478&amp;height=500&amp;hide_cover=false&amp;href=https%3A%2F%2Ffacebook.com%2FLaboratorioPromedica.Pachuca%2F&amp;locale=es_LA&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=300"
+                                style="border: none; visibility: visible; width: 300px; height: 500px;"
+                                class=""></iframe></span>
+                    </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div>
+            @foreach ($TodosPaquetes1 as $item)
+                <div class="modal fade" id={{ 'Modal' . $item->idPaquetes }} tabindex="-1"
+                    aria-labelledby={{ 'Modal' . $item->idPaquetes . 'Label' }} aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color: #003094; color:white">
+                                <h5 class="modal-title" id={{ 'Modal' . $item->idPaquetes . 'Label' }}>
+                                    <i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp&nbsp {{ $item->NombrePaquetes }}
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <b>¿Qué contiene?</b>
 
-                <div align="right">
-                    <button type="button" style="background-color:white; color:white" class="btn-close "
-                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                            @foreach (explode('|', $item->ContienePaquetes) as $index)
+                                                <li>{{ $index }}</li>
+                                            @endforeach
+
+                                        </div>
+                                        <div class="col-5 ms-auto">
+                                            <label style="color:red"><b>PRECIO PROMOCIONAL <span style="font-size: 2vw">
+                                                        ${{ $item->CostoPaquetes }}</span></b></label>
+                                            <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
+                                            <br>
+
+
+                                            <label>No requiere previa cita en los siguientes horarios:<label>
+                                                    <label>lunes a viernes 07:00 a 19:00. Sábado 07:30 a
+                                                        15:30<label>
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <b>Indicaciones:</b>
+
+                                            @foreach (explode('|', $item->ContienePaquetes) as $index)
+                                                <li>{{ $index }}</li>
+                                            @endforeach
+                                            <br>
+                                            <label>{{ $item->DescripcionPaquetes }}</label>
+
+
+
+
+                                        </div>
+                                        <div class="col-5 ms-auto">
+                                            <br><br>
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart"><b>Contactar Para
+                                                    Solicitar</b></button>
+                                        </div>
+
+
+                                    </div>
+                                    <br>
+                                    <div class="row" align="center">
+                                        <div class="col-12">
+
+                                            <label><b>Consulta a tu Médico.</b></label><br>
+                                            <label><b>CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                                    PACHUCA
+                                                    HGO.</b></label>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="traer"></div>
-            </div>
+            @endforeach
+        </div>
+        <div>
+            @foreach ($TodosCovid as $item)
+                <div class="modal fade" id={{ 'Covi' . $item->idEstudios }} tabindex="-1"
+                    aria-labelledby={{ 'Covi' . $item->idEstudios . 'Label' }} aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color: #003094; color:white">
+                                <h5 class="modal-title" id={{ 'Covi' . $item->idEstudios . 'Label' }}>
+                                    <i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp&nbsp{{ $item->NombreEstudios }}
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <b>Acerca de la Prueba:</b><br>
+
+                                            <label>{{ $item->DescripcionEstudios }}</label>
+
+                                            <br><br>
+
+                                            <b>Tipo de Muestra:</b><br>
+
+                                            <label>{{ $item->TipoMuestraEstudios }}</label>
+
+                                        </div>
+                                        <div class="col-5 ms-auto">
+                                            <label style="color:red"><b>PRECIO PROMOCIONAL <span style="font-size: 2vw">
+                                                        ${{ $item->PrecioEstudios }}</span></b></label>
+                                            <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
+                                            <br>
+
+
+                                            <label>No requiere previa cita en los siguientes horarios:<label>
+                                                    <label>lunes a viernes 07:00 a 19:00. Sábado 07:30 a
+                                                        15:30<label>
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <b>Indicaciones:</b>
+
+                                            @foreach (explode('|', $item->IndicacionesEstudios) as $index)
+                                                <li>{{ $index }}</li>
+                                            @endforeach
+                                            <br>
+
+                                            <b>Resultados:</b><br>
+                                            <label>{{ $item->ResultadosEstudios }}</label>
+
+
+
+
+                                        </div>
+                                        <div class="col-5 ms-auto">
+                                            <br><br>
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart"><b>Contactar Para
+                                                    Solicitar</b></button>
+                                        </div>
+
+
+                                    </div>
+                                    <br>
+                                    <div class="row" align="center">
+                                        <div class="col-12">
+
+                                            <label><b>Consulta a tu Médico.</b></label><br>
+                                            <label><b>CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                                    PACHUCA
+                                                    HGO.</b></label>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
         </div>
 
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="Anuncios" tabindex="-1" aria-labelledby="AnunciosLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-footer" align="right" style="position: absolute;left: 34vw;top: -2vw;">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
                     </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
-                    </div>
+                    <img class="card-img-top" src='img/InfoCovid.JPEG' alt="...">
+
                 </div>
+
             </div>
         </div>
-
 
 
     </div>
-    
 
-    
+
+
 
 @endsection
 
 @push('scripts')
-<script>
-    
-     document.getElementById("titulo0").classList.add('elegido');
-</script>
+    <script>
+        document.getElementById("titulo0").classList.add('elegido');
+
+
+
+        window.onload = function() {
+            $('#Anuncios').modal('show');
+        }
+
+
+        function opn(x) {
+            //console.log(x);
+            $('#Modal' + x).modal('show')
+
+        }
+
+        function opnCOvi(x) {
+            //console.log(x);
+            $('#Covi' + x).modal('show')
+
+        }
+    </script>
 @endpush
