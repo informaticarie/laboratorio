@@ -46,6 +46,38 @@
     <div class="container">
 
         <div class="row" style="margin-top: 4vw;">
+            <div class="iconfooter">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4  d-flex flex-column align-items-center mb-5 mb-lg-0">
+                            <div class="card card-icon border-0 mb-3">
+                                <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/ambulancia.svg"
+                                    alt="" loading="lazy">
+                            </div>
+                            <h3 class="text-center">Tomas de muestra a domicilio</h3>
+                        </div>
+                        <div class="col-4  d-flex flex-column align-items-center">
+                            <div class="card card-icon border-0 mb-3">
+                                <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg" alt=""
+                                    loading="lazy">
+                            </div>
+                            <h3 class="text-center">Lunes a Viernes 07:00 a 19:00.</h3>
+                        </div>
+
+                        <div class="col-4   d-flex flex-column align-items-center">
+                            <div class="card card-icon border-0 mb-3">
+                                <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
+                                    alt="" loading="lazy">
+                            </div>
+                            <h3 class="text-center">Entrega o Envio de Resultados en PDF</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 4vw;">
 
             <div class="col-8">
 
@@ -151,11 +183,11 @@
                                         <div class="col-6">
                                             <b>Indicaciones:</b>
 
-                                            @foreach (explode('|', $item->ContienePaquetes) as $index)
+                                            @foreach (explode('|', $item->IndicacionesPaquetes) as $index)
                                                 <li>{{ $index }}</li>
                                             @endforeach
                                             <br>
-                                            <label>{{ $item->DescripcionPaquetes }}</label>
+                                            <label><b>{{ $item->DescripcionPaquetes }}</b></label>
 
 
 
@@ -163,7 +195,7 @@
                                         </div>
                                         <div class="col-5 ms-auto">
                                             <br><br>
-                                            <button class="btn2 btn2-2 btn2-sep icon-cart"><b>Contactar Para
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart" onclick='redirect({{"\"el Paquete ".$item->NombrePaquetes."\"" }})'><b>Contactar Para
                                                     Solicitar</b></button>
                                         </div>
 
@@ -251,7 +283,7 @@
                                         </div>
                                         <div class="col-5 ms-auto">
                                             <br><br>
-                                            <button class="btn2 btn2-2 btn2-sep icon-cart"><b>Contactar Para
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart" onclick='redirect({{"\"la ".$item->NombreEstudios."\"" }})'><b>Contactar Para
                                                     Solicitar</b></button>
                                         </div>
 
@@ -306,8 +338,6 @@
     <script>
         document.getElementById("titulo0").classList.add('elegido');
 
-
-
         window.onload = function() {
             $('#Anuncios').modal('show');
         }
@@ -323,6 +353,11 @@
             //console.log(x);
             $('#Covi' + x).modal('show')
 
+        }
+        function redirect(x) {
+            
+            var url = "https://api.whatsapp.com/send?phone=527711585514&text=Hola Solicito "+x;
+            window.open( url,"_blank");
         }
     </script>
 @endpush

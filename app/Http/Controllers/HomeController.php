@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Paquete;
 use App\Models\Estudio;
+use App\Models\Perfile;
 
 class HomeController extends Controller
 {
@@ -40,17 +41,25 @@ class HomeController extends Controller
                 $agregarCovi .=
                     '<div class="col-4 mb-3" >
                         <div class=" card disenoHome CambiaCarrusel" href="#!"  id="Estudios' . $EstudioCovid[$i]['idEstudios'] . '" onclick="opnCOvi(' . $EstudioCovid[$i]['idEstudios'] . ')" >
-                            <div class="col-12 d-flex flex-column " >
-                             
-                            <div class="row  py-2">
-                            <img class="card-img-top" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="...">
-                            
+                            <div class="col-12 d-flex flex-column" >
+
+                              
+                            <div class="row  py-2 img__wrap">
+                           
+                              
+                          
+                               <img class="card-img-top img__img" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="...">
+                                <div class="img__description_layer">
+                                <p class="img__description"><b>'.str_replace('|', ', ', $EstudioCovid[$i]['TipoMuestraEstudios']).'</b></p>
+                         
+                                </div>
                                 <div class="col-12  titucardHome">
                                 <label><i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp;&nbsp;' . $EstudioCovid[$i]['NombreEstudios'] . '</label>
                                 </div>
                             
-                           
+                               
                             </div>
+                           
                                 
                                 <button style="font-size:0.8vw"  type="button" class="btn btn-success propButon">Ver Más</button>
                               
@@ -59,6 +68,7 @@ class HomeController extends Controller
                             </div>
                            
                         </div>
+                       
 
                         
                     </div>
@@ -74,9 +84,11 @@ class HomeController extends Controller
                     '<div class="col-4 mb-3">
                         <div class=" card disenoHome CambiaCarrusel" href="#!"  id="Estudio' . $EstudioCovid[$i]['idEstudios'] . '" onclick="opnCOvi(' . $EstudioCovid[$i]['idEstudios'] . ')" >
                         <div class="col-12 d-flex flex-column">
-                        <div class="row py-2">
-                        <img class="card-img-top" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="...">
-                          
+                        <div class="row py-2 img__wrap">
+                        <img class="card-img-top img__img" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="...">
+                            <div class="img__description_layer">
+                            <p class="img__description"><b>'.str_replace('|', ', ', $EstudioCovid[$i]['TipoMuestraEstudios']).'</b></p>
+                            </div>
                             <div class="col-12  titucardHome">
                             <label><i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp;&nbsp;' . $EstudioCovid[$i]['NombreEstudios'] . '</label>
                             </div>
@@ -115,9 +127,13 @@ class HomeController extends Controller
                         <div class=" card disenoHome CambiaCarrusel" href="#!"  id="Paquete' . $PaquetesPromocion[$i]['idPaquetes'] . '" onclick="opn(' . $PaquetesPromocion[$i]['idPaquetes'] . ')" >
                             <div class="col-12 d-flex flex-column " >
                              
-                            <div class="row  py-2">
-                            <img class="card-img-top" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="...">
-                       
+                            <div class="row  py-2 img__wrap">
+                            <img class="card-img-top img__img" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="...">
+                                
+                                <div class="img__description_layer">
+                                <p class="img__description"><b>'.str_replace('|', ', ', $PaquetesPromocion[$i]['ContienePaquetes']).'</b></p>
+                         
+                                </div>
                                 <div class="col-12  titucardHome">
                                 <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $PaquetesPromocion[$i]['NombrePaquetes'] . '</label>
                                 </div>
@@ -146,9 +162,11 @@ class HomeController extends Controller
                     '<div class="col-4 mb-3">
                         <div class=" card disenoHome CambiaCarrusel" href="#!"  id="Paquete' . $PaquetesPromocion[$i]['idPaquetes'] . '" onclick="opn(' . $PaquetesPromocion[$i]['idPaquetes'] . ')" >
                         <div class="col-12 d-flex flex-column">
-                        <div class="row py-2">
-                         <img class="card-img-top" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="...">
-                          
+                        <div class="row py-2 img__wrap">
+                         <img class="card-img-top img__img" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="...">
+                         <div class="img__description_layer">
+                         <p class="img__description"><b>'.str_replace('|', ', ', $PaquetesPromocion[$i]['ContienePaquetes']).'</b></p>
+                         </div>
                             <div class="col-12  titucardHome">
                             <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $PaquetesPromocion[$i]['NombrePaquetes'] . '</label>
                             </div>
@@ -183,12 +201,14 @@ class HomeController extends Controller
 
         $TodosPaquetes = Paquete::orderBy('TipoPaquetes', 'asc')->get()->toArray();
         $TodosPaquetes1 = Paquete::orderBy('TipoPaquetes', 'asc')->get();
-        $TodosEstudios = Estudio::where('TipoEstudios', '2')->get()->toArray();
+        $TodosPerfiles = Perfile::orderBy('TipoPerfiles', 'asc')->get()->toArray();
+        $TodosPerfiles1 = Perfile::orderBy('TipoPerfiles', 'asc')->get();
+       
 
         $contador = 1;
-        $contadorEstudios = 1;
+        $contadorPerfiles = 1;
         $agregar = "";
-        $agregarEstudios = "";
+        $agregarPerfiles = "";
 
         for ($i = 0; $i < count($TodosPaquetes); $i++) {
 
@@ -219,9 +239,11 @@ class HomeController extends Controller
                         <div class=" card diseno CambiaCarrusel" href="#!"  id="Paquete' . $TodosPaquetes[$i]['idPaquetes'] . '" onclick="opn(' . $TodosPaquetes[$i]['idPaquetes'] . ')" >
                             <div class="col-12 d-flex flex-column " >
                              
-                            <div class="row  py-1">
-                            <img class="card-img-top" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="...">
-                           
+                            <div class="row  py-1 img__wrap">
+                            <img class="card-img-top img__img" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="...">
+                             <div class="img__description_layer">
+                             <p class="img__description"><b>'.str_replace('|', ', ', $TodosPaquetes[$i]['ContienePaquetes']).'</b></p>
+                             </div>
                                 <div class="col-12  titucard">
                                 <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPaquetes[$i]['NombrePaquetes'] . '</label>
                                 </div>
@@ -259,9 +281,11 @@ class HomeController extends Controller
                     '<div class="col-4 mb-3 ">
                         <div class=" card diseno CambiaCarrusel" href="#!"  id="Paquete' . $TodosPaquetes[$i]['idPaquetes'] . '" onclick="opn(' . $TodosPaquetes[$i]['idPaquetes'] . ')" >
                         <div class="col-12 d-flex flex-column">
-                        <div class="row py-1">
-                        <img class="card-img-top" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="...">
-                          
+                        <div class="row py-1 img__wrap">
+                        <img class="card-img-top img__img" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="...">
+                            <div class="img__description_layer">
+                            <p class="img__description"><b>'.str_replace('|', ', ', $TodosPaquetes[$i]['ContienePaquetes']).'</b></p>
+                            </div>
                             <div class="col-12  titucard">
                             <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPaquetes[$i]['NombrePaquetes'] . '</label>
                             </div>
@@ -280,31 +304,36 @@ class HomeController extends Controller
             }
         }
 
-        for ($b = 0; $b < count($TodosEstudios); $b++) {
+        
+        for ($b = 0; $b < count($TodosPerfiles); $b++) {
 
-            if ($contadorEstudios == 1) {
+            if ($contadorPerfiles == 1) {
                 if ($b == 0) {
-                    $agregarEstudios .= '<div class="carousel-item active">
+                    $agregarPerfiles .= '<div class="carousel-item active">
                     <div class="row">';
                 } else {
-                    $agregarEstudios .= '<div class="carousel-item">
+                    $agregarPerfiles .= '<div class="carousel-item">
                     <div class="row">';
                 }
             }
 
 
-            if ($contadorEstudios == 3) {
+            if ($contadorPerfiles == 3) {
+                
 
-                $agregarEstudios .=
+                $agregarPerfiles .=
                     '<div class="col-4 mb-3 " >
-                        <div class=" card diseno CambiaCarrusel" href="#!"  id="Estudios' . $TodosEstudios[$b]['idEstudios'] . '" onclick="opn(' . $TodosEstudios[$b]['idEstudios'] . ')" >
+                        <div class=" card diseno CambiaCarrusel" href="#!"  id="Perfiles' . $TodosPerfiles[$b]['idPerfiles'] . '" onclick="opn(\'Perfil' . $TodosPerfiles[$b]['idPerfiles'] . '\')" >
                             <div class="col-12 d-flex flex-column " >
                              
-                            <div class="row  py-2">
-                            <img class="card-img-top" src=\'img/Estudios/'. $TodosEstudios[$b]['ImagenEstudios'] .'\'  alt="...">
-                            
+                            <div class="row  py-2 img__wrap">
+                            <img class="card-img-top img__img" src=\'img/Perfiles/'. $TodosPerfiles[$b]['ImagenPerfiles'] .'\'  alt="...">
+                            <div class="img__description_layer">
+                            <p class="img__description"><b>'.str_replace('|', ', ', $TodosPerfiles[$b]['ContienePerfiles']).'</b></p>
+                             
+                            </div>
                                 <div class="col-12  titucard">
-                                <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosEstudios[$b]['NombreEstudios'] . '</label>
+                                <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPerfiles[$b]['NombrePerfiles'] . '</label>
                                 </div>
                             
                             </div>
@@ -323,19 +352,22 @@ class HomeController extends Controller
             </div>';
 
 
-                $contadorEstudios = 1;
+                $contadorPerfiles = 1;
             } else {
 
                
-                $agregarEstudios .=
+                $agregarPerfiles .=
                     '<div class="col-4 mb-3 ">
-                        <div class=" card diseno CambiaCarrusel" href="#!"  id="Estudios' . $TodosEstudios[$b]['idEstudios'] . '" onclick="opn(' . $TodosEstudios[$b]['idEstudios'] . ')" >
+                        <div class=" card diseno CambiaCarrusel" href="#!"  id="Perfiles' . $TodosPerfiles[$b]['idPerfiles'] . '" onclick="opn(\'Perfil' . $TodosPerfiles[$b]['idPerfiles'] . '\')"  >
                         <div class="col-12 d-flex flex-column">
-                        <div class="row py-2">
-                        <img class="card-img-top" src=\'img/Estudios/'. $TodosEstudios[$b]['ImagenEstudios'] .'\'  alt="...">
-                           
+                        <div class="row py-2 img__wrap">
+                        <img class="card-img-top img__img" src=\'img/Perfiles/'. $TodosPerfiles[$b]['ImagenPerfiles'] .'\'  alt="...">
+                            <div class="img__description_layer">
+                            <p class="img__description"><b>'.str_replace('|', ', ', $TodosPerfiles[$b]['ContienePerfiles']).'</b></p>
+                             
+                            </div>
                             <div class="col-12  titucard">
-                            <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosEstudios[$b]['NombreEstudios'] . '</label>
+                            <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPerfiles[$b]['NombrePerfiles'] . '</label>
                             </div>
                             
                        
@@ -348,7 +380,7 @@ class HomeController extends Controller
                     </div>';
 
 
-                $contadorEstudios++;
+                $contadorPerfiles++;
             }
         }
 
@@ -356,7 +388,7 @@ class HomeController extends Controller
 
 
 
-        return view('paquetes', compact('agregarEstudios', 'agregar', 'TodosPaquetes1'));
+        return view('paquetes', compact('agregarPerfiles', 'agregar', 'TodosPaquetes1','TodosPerfiles1'));
     }
     /*public function Covid()
     {
