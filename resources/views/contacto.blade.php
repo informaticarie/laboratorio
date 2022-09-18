@@ -63,6 +63,6 @@
     @push('scripts')
     <script>
         
-         document.getElementById("titulo3").classList.add('elegido');
+         document.getElementById("titulo4").classList.add('elegido');
     </script>
     @endpush

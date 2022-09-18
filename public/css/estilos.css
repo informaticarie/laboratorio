@@ -361,3 +361,28 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
 .img__wrap:hover .img__description {
   transform: translateY(0);
 }
+
+.diseLogo{
+
+  /*border: 1px solid #303066; si se comenta se puede mejor */
+  border-radius: 2.6354319180087846vw;
+  padding: 2.12298682284041vw;
+  width: 25vw;
+  /*margin-top:  0.7320644216691069vw;
+  margin-bottom:  0.7320644216691069vw;*/
+
+}
+
+.diseDiv{
+    border-top: 3vw solid white;
+    border-bottom: 8.125915080527086vw solid #303066;
+    border-left: 4.172767203513909vw solid white;
+    /* border-right: 32px solid transparent; */
+    height: 0;
+}
+
+.tamañoIcon{
+  margin-left: 5px;
+  margin-right: 5px; 
+   font-size:1.1vw;
+}

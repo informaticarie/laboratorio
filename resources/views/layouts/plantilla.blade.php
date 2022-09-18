@@ -30,26 +30,14 @@
 
 
         <section id="hero" style="background-color: #303066; color:white">
-            <div class="container-fluid">
+            <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
                 <div class="row justify-content-between">
-                    <div class="col-4">
+                    <div class="col-4" style="background-color: white">
 
-
-
-                        <a href="/"
-                            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                                <use xlink:href="#bootstrap"></use>
-                            </svg>
-                        </a>
-
-                        <ul class="nav col-12 col-auto my-2 justify-content-center my-md-0 text-small">
+                        <ul class="nav col-12 col-auto  justify-content-center  text-small">
                             <li>
                                 <a href="{{ url('/') }}" class="nav-link ">
-                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                        <use xlink:href="{{ url('/') }}"></use>
-                                    </svg>
-                                    <img src="{{ asset('img/Logos/logo1.png') }}" style="background-color: #6b9b9e;"  class="img-fluid">
+                                    <img src="{{ asset('img/Logos/logo1.png') }}" class="diseLogo" style="background-color: white;"  class="img-fluid">
 
                                 </a>
                             </li>
@@ -60,23 +48,16 @@
 
                     </div>
 
-                    <div class="col-8" style="font-weight: bold;">
+                    <div class="col-8 diseDiv" style="font-weight: bold;">
 
 
                         <div class="container">
 
-                            <a href="/"
-                                class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                                <svg class="bi me-2" width="40" height="32" role="img"
-                                    aria-label="Bootstrap">
-                                    <use xlink:href="#bootstrap"></use>
-                                </svg>
-                            </a>
 
                             <ul class="nav col-12 col-auto my-2 justify-content-end my-md-0 text-small">
 
 
-                                <li style="margin-left: 5px;margin-right: 5px;">
+                                <li class="tamañoIcon">
                                     <a id="titulo0" href="{{ url('/') }}"
                                         class="Cambiando nav-link text-white " align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
@@ -85,7 +66,7 @@
                                         <i class="fa-solid fa-house-user fa-xl"></i><br>Inicio
                                     </a>
                                 </li>
-                                <li style="margin-left: 5px;margin-right: 5px;">
+                                <li class="tamañoIcon">
                                     <a id="titulo1" href="{{ url('Nosotros') }}" class="Cambiando nav-link text-white"
                                         align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
@@ -95,7 +76,7 @@
                                         Nosotros
                                     </a>
                                 </li>
-                                <li style="margin-left: 5px;margin-right: 5px;">
+                                <li class="tamañoIcon">
                                     <a id="titulo2" href="{{ url('Paquetes') }}"
                                         class=" Cambiando nav-link text-white" align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
@@ -115,7 +96,7 @@
                                         Covid-19
                                     </a>
                                 </li>-->
-                                <li style="margin-left: 5px;margin-right: 5px;">
+                                <li class="tamañoIcon">
                                     <a id="titulo4" href="{{ url('Contacto') }}"
                                         class="Cambiando nav-link text-white" align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
@@ -165,7 +146,7 @@
             </div>
 
         </div>
-        <div class="row" style="margin-top: 3vw; margin-right: 0px;">
+        <div class="row" style="margin-top: 3vw; margin-right: 0px;padding-right: 0px;padding-left: 0px;">
 
             
 
