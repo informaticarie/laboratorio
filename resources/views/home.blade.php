@@ -4,6 +4,7 @@
 
 @section('contenido')
 
+
     <div class="container" style="padding-right: 0px;padding-left: 0px;">
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
