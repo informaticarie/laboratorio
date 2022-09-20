@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export variable=/home1/labor129/public_html/
-    - /bin/cp -R img $variable
+    - /bin/cp index.html $variable
