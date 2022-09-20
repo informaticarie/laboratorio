@@ -161,7 +161,7 @@
                         <div class="col-6">
                             <div class="widget">
 
-                                <img class="card-img-top"   style="width:45%;
+                                <img class="card-img-top diseLogo"   style="width:45%;
                                 height: 45%; background-color: white;opacity: 0.5;" src='img/pacal.png' alt="...">
                                
                             </div> 
@@ -173,14 +173,14 @@
                         <div class="col-6">
                             <div class="widget" style="text-align: justify">
                                 <h3>Ubicación</h3>
-                                <address>42032, Av Solidaridad 218, Parque de Poblamiento,
+                                <address> Av Solidaridad 218, Parque de Poblamiento,
                                     42032 Pachuca de Soto, Hgo.</address>
                                 <ul class="list-unstyled links ">
                                     <li>Horario <a>lunes a viernes:
                                         07:00 a 19:00.
                                         Sábado:
                                         07:30 a 15:30</a></li>
-                                    <li>Telefonos:<a>771 158 5514</a></li>
+                                    <li>Telefonos:<a>771 158 5514 </a>,<a> 771 165 0424</a></li>
                                     <li>Email:<a>info@mydomain.com</a></li>
                                 </ul>
                             </div> <!-- /.widget -->
@@ -213,7 +213,7 @@
     </div>
     <div class="whats">
         <a href="https://api.whatsapp.com/send?phone=527711585514&text=Hola, Necesito más informacion!"
-            target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i><br>¿Podemos Ayudarte?</a>
+            target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i><span style="font-size:1.2vw"><br>¡COTIZA <br>AHORA!</span></a>
     </div>
 
 

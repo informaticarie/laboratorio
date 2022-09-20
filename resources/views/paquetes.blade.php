@@ -6,6 +6,79 @@
 
     <div class="container">
 
+        <br>
+        <br>
+        <br>
+        <div class="iconfooter" >
+            <span style="font-size:1.8vw">ESTAS SON ALGUNAS DE LAS AREAS CON LAS QUE LABORATORIO PROMEDICA  TAMBIEN ATIENDE: </span>
+            <br><br>
+            <div class="row">
+                <div class="col-1"></div>
+                <div  class="text-center col-2 ">
+                    <ul ><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Química.svg" alt="" loading="lazy">
+                        <li><label    class="label-mini-icon">Química clínica</label>
+                        </li>
+                    </ul>
+                </div>
+                <div   class="text-center col-2  ">
+                    <ul><img  style="background-color: #f6f6f7; width:5vw" src="img/Logos/Hematología.svg"  loading="lazy"
+                            class="min-icon">
+                        <li><label  class="label-mini-icon">Hematología</label></li>
+                    </ul>
+                </div>
+                <div   class="text-center col-2  ">
+                    <ul><img  style="background-color: #f6f6f7; width:5vw"  src="img/Logos/Biología.svg" alt="" loading="lazy" >
+                        <li><label  class="label-mini-icon">Biología  <br> molecular</label></li>
+                    </ul>
+                </div>
+                <div   class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Citogenética.svg" alt="" loading="lazy">
+                        <li ><label  class="label-mini-icon">Citogenética</label></li>
+                    </ul>
+                </div>
+                <div  class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Histopatología.svg" alt="" loading="lazy">
+                        <li><label class="label-mini-icon">Histopatología</label></li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="text-center col-2 ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inmunología.svg" alt="" loading="lazy">
+                        <li><label    class="label-mini-icon">Inmunología</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Infectología.svg" alt="" loading="lazy">
+                        <li><label    class="label-mini-icon">Infectología y Urianálisis</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Química.svg" alt="" loading="lazy">
+                        <li><label    class="label-mini-icon">Inmunoquímica</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Microbiología.svg" alt="" loading="lazy">
+                        <li><label   
+                                class="label-mini-icon">Microbiología y Parasitología</label></li>
+                    </ul>
+                </div>
+                <div class="text-center col-2 ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Toxicología.svg" alt="" loading="lazy">
+                        <li><label   
+                                class="label-mini-icon">Toxicología </label></li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
 
         <section class="py-5">
 
@@ -157,7 +230,8 @@
                                         <div class="col-5 ms-auto">
                                             <br><br>
                                             <button class="btn2 btn2-2 btn2-sep icon-cart"
-                                                onclick='redirect({{ "\"" . $item->NombrePaquetes . "\"" }})'><b>Contactar Para
+                                                onclick='redirect({{ "\"" . $item->NombrePaquetes . "\"" }})'><b>Contactar
+                                                    Para
                                                     Solicitar</b></button>
                                         </div>
 
@@ -229,7 +303,7 @@
 
                                         </div>
                                     </div>
-                                   
+
                                     <br>
                                     <div class="row" align="center">
                                         <div class="col-12">
