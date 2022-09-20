@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/labor129/public_html/
-    - /bin/rsync -av public/ $DEPLOYPATH
+    - export variable=/home1/labor129/public_html/
+    - /bin/cp -R img $variable
