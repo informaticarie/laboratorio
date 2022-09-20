@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/labor129/public_html/
-    - /bin/rsync -av public/ $DEPLOYPATH
