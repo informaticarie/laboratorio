@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export variable=/home1/labor129/public_html/
-    - /bin/cp index.html $variable
+    - /bin/rsync -a --exclude 'index.php' public/ $variable
