@@ -41,7 +41,7 @@
                     <br><br>
                     <ul>
 
-                        <li>Amor I Pasión11</li>
+                        <li>Amor I Pasión</li>
                         <li>Ética I Responsabilidad</li>
                         <li>Compromiso I Puntualidad</li>
                         <li>Resolución I Claridad</li>
