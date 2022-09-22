@@ -322,6 +322,7 @@
                     </div>
                     <img class="card-img-top" src='img/InfoCovid.jpeg' alt="...">
 
+                    
                 </div>
 
             </div>
