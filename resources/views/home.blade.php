@@ -320,7 +320,7 @@
                     <div class="modal-footer" align="right" style="position: absolute;left: 34vw;top: -2vw;">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
                     </div>
-                    <img class="card-img-top" src='img/InfoCovid.JPEG' alt="...">
+                    <img class="card-img-top" src='img/InfoCovid.jpeg' alt="...">
 
                 </div>
 
