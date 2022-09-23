@@ -123,14 +123,14 @@
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/ambulancia.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h3 class="text-center">Tomas de muestra a domicilio</h3>
+                                <h4 class="text-center">Tomas de muestra a domicilio</h4>
                             </div>
                             <div class="col-4  d-flex flex-column align-items-center">
                                 <div class="card card-icon border-0 mb-3">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h3 class="text-center">Lunes a Viernes 07:00 a 19:00.</h3>
+                                <h4 class="text-center">Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00</h4>
                             </div>
 
                             <div class="col-4   d-flex flex-column align-items-center">
@@ -138,7 +138,7 @@
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h3 class="text-center">Entrega o Envio de Resultados en PDF</h3>
+                                <h4 class="text-center">Entrega o Envio de Resultados en PDF</h4>
                             </div>
                         </div>
                     </div>
@@ -200,27 +200,26 @@
 
                                         </div>
                                         <div class="col-5 ms-auto">
-                                            <label style="color:red"><b>PRECIO PROMOCIONAL <span style="font-size: 2vw">
+                                            <label style="color:red"><b>PRECIO PROMOCIÓN <span style="font-size: 2vw">
                                                         ${{ $item->CostoPaquetes }}</span></b></label>
                                             <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
                                             <br>
 
 
-                                            <label>No requiere previa cita en los siguientes horarios:<label>
-                                                    <label>lunes a viernes 07:00 a 19:00. Sábado 07:30 a
-                                                        15:30<label>
+                                            <label>No requiere previa cita <label>
+                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00<label>
 
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
                                         <div class="col-6">
-                                            <b>Indicaciones:</b>
+                                            <b>Indicaciones:</b><br>
 
                                             @foreach (explode('|', $item->IndicacionesPaquetes) as $index)
-                                                <li>{{ $index }}</li>
+                                                <label>{{ $index }}</label>
                                             @endforeach
-                                            <br>
+                                            <br><br>
                                             <label><b>{{ $item->DescripcionPaquetes }}</b></label>
 
 
@@ -242,7 +241,7 @@
                                         <div class="col-12">
 
                                             <label><b>Consulta a tu Médico.</b></label><br>
-                                            <label><b>CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
                                                     PACHUCA
                                                     HGO.</b></label>
 
@@ -285,15 +284,14 @@
 
                                         </div>
                                         <div class="col-5 ms-auto">
-                                            <label style="color:red"><b>PRECIO PROMOCIONAL <span style="font-size: 2vw">
+                                            <label style="color:red"><b>PRECIO PROMOCIÓN <span style="font-size: 2vw">
                                                         ${{ $item->PrecioPerfiles }}</span></b></label>
                                             <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
                                             <br>
 
 
-                                            <label>No requiere previa cita en los siguientes horarios:<label>
-                                                    <label>lunes a viernes 07:00 a 19:00. Sábado 07:30 a
-                                                        15:30<label>
+                                            <label>No requiere previa cita<label>
+                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00<label>
 
                                                             <br><br>
                                                             <button class="btn2 btn2-2 btn2-sep icon-cart"
@@ -309,7 +307,7 @@
                                         <div class="col-12">
 
                                             <label><b>Consulta a tu Médico.</b></label><br>
-                                            <label><b>CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
                                                     PACHUCA
                                                     HGO.</b></label>
 

@@ -176,10 +176,7 @@
                                 <address> Av Solidaridad 218, Parque de Poblamiento,
                                     42032 Pachuca de Soto, Hgo.</address>
                                 <ul class="list-unstyled links ">
-                                    <li>Horario <a>lunes a viernes:
-                                        07:00 a 19:00.
-                                        Sábado:
-                                        07:30 a 15:30</a></li>
+                                    <li>Horario <a>Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00</a></li>
                                     <li>Telefonos:<a>771 158 5514 </a>,<a> 771 165 0424</a></li>
                                     <li>Email:<a>info@mydomain.com</a></li>
                                 </ul>
