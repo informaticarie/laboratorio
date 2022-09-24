@@ -30,6 +30,8 @@
 							<p>
 								
 								lunes a viernes:<br>07:00 a 19:00. <br>Sábado: <br>07:30 a 15:30
+
+								pero como vamos a saber si todo esto se resuelve en el mejor de los problemas por el cual funciona 
 							</p>
 						</div>
 
