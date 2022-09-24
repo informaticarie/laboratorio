@@ -39,7 +39,7 @@
                                 <a href="{{ url('/') }}" class="nav-link " align="center">
                                     <img src="{{ asset('img/Logos/logo1.png') }}" class="diseLogo"
                                         style="background-color: white;" class="img-fluid">
-                                    <br /><span style="font-weight: bold;color:#303066">¡Tu laboratorio de
+                                    <br /><span style="font-size:2vw;font-weight: bold;color:#303066">¡Tu laboratorio de
                                         confianza!</span>
                                 </a>
                             </li>
@@ -183,7 +183,7 @@
                                 <ul class="list-unstyled links ">
                                     <li>Horario <a>Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a 15:00H</a></li>
                                     <li>Telefonos:<a>771 158 5514 </a>,<a> 771 165 0424</a></li>
-                                    <li>Email:<a>info@mydomain.com</a></li>
+                                    <li>Email:<a>ventas@laboratoriopromedica.com</a></li>
                                 </ul>
                             </div> <!-- /.widget -->
                         </div> <!-- /.col-lg-3 -->

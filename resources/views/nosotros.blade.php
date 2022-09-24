@@ -21,7 +21,7 @@
                     <p> Ponemos a su disposición el laboratorio central en el interior del <b>Centro Médico Radiológico
                             Piracantos</b>. Ubicado en <b>Av. Solidaridad No. 218 Col. Piracantos. Pachuca Hgo. Tels. 771
                             158 55 14 ó 771 165 04 24</b>, en esta unidad también contamos con los servicios de
-                        <b>Ultrasonido y Electrocardiograma</b> que con agrado atenderemos.
+                        <b>Ultrasonido y Electrocardiograma</b> que con agrado le atenderemos.
                     </p>
 
                 </div>
@@ -59,7 +59,7 @@
                 <div class="col-7">
 
                     <h1 class="font-weight-light">VALORES</h1>
-                    <br><br>
+                   
                     <div class="row">
                         <div class="col-4">
                             <ul>

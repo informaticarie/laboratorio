@@ -62,7 +62,7 @@
                                 <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg" alt=""
                                     loading="lazy">
                             </div>
-                            <h4 class="text-center">Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a 15:00H</h4>
+                            <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a 15:00h</h5>
                         </div>
 
                         <div class="col-4   d-flex flex-column align-items-center">
@@ -70,7 +70,7 @@
                                 <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
                                     alt="" loading="lazy">
                             </div>
-                            <h4 class="text-center">Entrega o Envio de Resultados en PDF</h4>
+                            <h4 class="text-center">Entrega o envio de resultados en PDF</h4>
                         </div>
                     </div>
                 </div>
@@ -174,8 +174,8 @@
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a
-                                                        15:00H<label>
+                                                    <label>Horario Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a
+                                                        15:00h<label>
 
                                         </div>
                                     </div>
@@ -185,7 +185,7 @@
                                             <b>Indicaciones:</b><br>
 
                                             @foreach (explode('|', $item->IndicacionesPaquetes) as $index)
-                                                <label>{{ $index }}</label>
+                                                <label>{{ $index }}</label><br>
                                             @endforeach
                                             <br><br>
                                             <label><b>{{ $item->DescripcionPaquetes }}</b></label>
@@ -262,8 +262,8 @@
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario: Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a
-                                                        15:00H<label>
+                                                    <label>Horario: Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a
+                                                        15:00h<label>
 
                                         </div>
                                     </div>
@@ -273,7 +273,7 @@
                                             <b>Indicaciones:</b><br>
 
                                             @foreach (explode('|', $item->IndicacionesEstudios) as $index)
-                                                <label>{{ $index }}</label>
+                                                <label>{{ $index }}</label><br>
                                             @endforeach
                                             <br><br>
 

@@ -10,7 +10,7 @@
         <br>
         <br>
         <div class="iconfooter">
-            <span style="font-size:1.8vw">ESTAS SON ALGUNAS DE LAS AREAS CON LAS QUE LABORATORIO PROMEDICA TAMBIEN ATIENDE:
+            <span style="font-size:1.8vw">Áreas con las que contamos:
             </span>
             <br><br>
             <div class="row">
@@ -120,8 +120,8 @@
             <div class="row" style="margin-top: 4vw;">
                 <div class="iconfooter">
                     <div class="container">
-                        <span style="font-size:1vw">¿SABIAS QUE…..? Gracias a los análisis clínicos el médico puede evaluar
-                            tu estado de salud, y/o prevenir algunas enfermedades. Chécate mínimo 2 veces al año.</span>
+                        <span style="font-size:2vw">¿SABIAS QUE…..?</span><br><span style="font-size:1.2vw"> Gracias a los análisis clínicos el médico puede evaluar
+                            tu estado de salud y/o prevenir algunas enfermedades.</span> <span  style="font-weight: bold;font-size:1.2vw">Chécate mínimo 2 veces al año.</span>
                         <br><br>
                         <div class="row d-flex justify-content-center">
                             <div class="col-4  d-flex flex-column align-items-center mb-5 mb-lg-0">
@@ -136,7 +136,7 @@
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h4 class="text-center">Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a 15:00H</h4>
+                                <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a 15:00h</h5>
                             </div>
 
                             <div class="col-4   d-flex flex-column align-items-center">
@@ -144,7 +144,7 @@
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h4 class="text-center">Entrega o Envio de Resultados en PDF</h4>
+                                <h4 class="text-center">Entrega o envio de resultados en PDF</h4>
                             </div>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                                             <b>Indicaciones:</b><br>
 
                                             @foreach (explode('|', $item->IndicacionesPaquetes) as $index)
-                                                <label>{{ $index }}</label>
+                                                <label>{{ $index }}</label><br>
                                             @endforeach
                                             <br><br>
                                             <label><b>{{ $item->DescripcionPaquetes }}</b></label>
