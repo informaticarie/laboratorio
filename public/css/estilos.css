@@ -1,6 +1,6 @@
 .hero-waves {
   display: block;
-  /*margin-top: 2vw;  se comento para tener menos espacio 18 de sep probando*/  
+  /*margin-top: 2vw;  se comento para tener menos espacio 18 de sep probando*/
   width: 100%;
   height: 4.39vw;
   z-index: 5;
@@ -111,7 +111,7 @@
 
 .CambiaCarrusel:hover {
   background-image: linear-gradient(to right,
-  #303066,#484870,#4e4e6d);
+      #303066, #484870, #4e4e6d);
   background-size: 200% 100%;
   background-position: -100%;
 
@@ -205,6 +205,7 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   position: relative;
   top: -2vw;
 }
+
 .titucardHome {
   background-color: #003094;
   border-radius: 0 2.3rem 2.3rem 0;
@@ -314,20 +315,20 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   content: "\f07a";
 }
 
-.iconfooter{
+.iconfooter {
   padding: 2rem;
   align-items: center;
   background-color: #f6f6f7;
 }
 
-.widget{
+.widget {
 
   color: #828282;
 }
 
 .img__wrap {
   position: relative;
-  
+
 }
 
 .img__description_layer {
@@ -362,27 +363,30 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   transform: translateY(0);
 }
 
-.diseLogo{
+.diseLogo {
 
   /*border: 1px solid #303066; si se comenta se puede mejor */
   border-radius: 2.6354319180087846vw;
-  padding: 2.12298682284041vw;
+  padding-top: 2.12299vw;
+  padding-right: 2.12299vw;
+  padding-bottom: 0.12299vw;
+  padding-left: 2.12299vw;
   width: 25vw;
   /*margin-top:  0.7320644216691069vw;
   margin-bottom:  0.7320644216691069vw;*/
 
 }
 
-.diseDiv{
-    border-top: 3vw solid white;
-    border-bottom: 8.125915080527086vw solid #303066;
-    border-left: 4.172767203513909vw solid white;
-    /* border-right: 32px solid transparent; */
-    height: 0;
+.diseDiv {
+  border-top: 3vw solid white;
+  border-bottom: 8.125915080527086vw solid #303066;
+  border-left: 4.172767203513909vw solid white;
+  /* border-right: 32px solid transparent; */
+  height: 0;
 }
 
-.tamañoIcon{
+.tamañoIcon {
   margin-left: 5px;
-  margin-right: 5px; 
-   font-size:1.1vw;
+  margin-right: 5px;
+  font-size: 1.1vw;
 }

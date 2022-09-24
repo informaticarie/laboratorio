@@ -9,35 +9,39 @@
         <br>
         <br>
         <br>
-        <div class="iconfooter" >
-            <span style="font-size:1.8vw">ESTAS SON ALGUNAS DE LAS AREAS CON LAS QUE LABORATORIO PROMEDICA  TAMBIEN ATIENDE: </span>
+        <div class="iconfooter">
+            <span style="font-size:1.8vw">ESTAS SON ALGUNAS DE LAS AREAS CON LAS QUE LABORATORIO PROMEDICA TAMBIEN ATIENDE:
+            </span>
             <br><br>
             <div class="row">
                 <div class="col-1"></div>
-                <div  class="text-center col-2 ">
-                    <ul ><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="" loading="lazy">
-                        <li><label    class="label-mini-icon">Química clínica</label>
+                <div class="text-center col-2 ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="" loading="lazy">
+                        <li><label class="label-mini-icon">Química clínica</label>
                         </li>
                     </ul>
                 </div>
-                <div   class="text-center col-2  ">
-                    <ul><img  style="background-color: #f6f6f7; width:5vw" src="img/Logos/Hema.svg"  loading="lazy"
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Hema.svg" loading="lazy"
                             class="min-icon">
-                        <li><label  class="label-mini-icon">Hematología</label></li>
+                        <li><label class="label-mini-icon">Hematología</label></li>
                     </ul>
                 </div>
-                <div   class="text-center col-2  ">
-                    <ul><img  style="background-color: #f6f6f7; width:5vw"  src="img/Logos/Bio.svg" alt="" loading="lazy" >
-                        <li><label  class="label-mini-icon">Biología  <br> molecular</label></li>
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Bio.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Biología <br> molecular</label></li>
                     </ul>
                 </div>
-                <div   class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Cit.svg" alt="" loading="lazy">
-                        <li ><label  class="label-mini-icon">Citogenética</label></li>
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Cit.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Citogenética</label></li>
                     </ul>
                 </div>
-                <div  class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/His.svg" alt="" loading="lazy">
+                <div class="text-center col-2  ">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/His.svg" alt=""
+                            loading="lazy">
                         <li><label class="label-mini-icon">Histopatología</label></li>
                     </ul>
                 </div>
@@ -46,33 +50,36 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="text-center col-2 ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inm.svg" alt="" loading="lazy">
-                        <li><label    class="label-mini-icon">Inmunología</label>
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inm.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Inmunología</label>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inf.svg" alt="" loading="lazy">
-                        <li><label    class="label-mini-icon">Infectología y Urianálisis</label>
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inf.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Infectología y Urianálisis</label>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="" loading="lazy">
-                        <li><label    class="label-mini-icon">Inmunoquímica</label>
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Inmunoquímica</label>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Micro.svg" alt="" loading="lazy">
-                        <li><label   
-                                class="label-mini-icon">Microbiología y Parasitología</label></li>
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Micro.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Microbiología y Parasitología</label></li>
                     </ul>
                 </div>
                 <div class="text-center col-2 ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Toxi.svg" alt="" loading="lazy">
-                        <li><label   
-                                class="label-mini-icon">Toxicología </label></li>
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Toxi.svg" alt=""
+                            loading="lazy">
+                        <li><label class="label-mini-icon">Toxicología </label></li>
                     </ul>
                 </div>
                 <div class="col-1"></div>
@@ -113,9 +120,8 @@
             <div class="row" style="margin-top: 4vw;">
                 <div class="iconfooter">
                     <div class="container">
-                        <span style="font-size:1vw">GRACIAS A LOS ANALISIS CLINICOS EL MEDICO PUEDE EVALUAR EL ESTADO DE
-                            SALUD Y DIAGNOSTICAR ALGUNAS ENFERMEDADES DE MANERA RUTINARIA O ANTE ALGUNOS SINTOMAS QUE
-                            PODAMOS PRESENTAR.</span>
+                        <span style="font-size:1vw">¿SABIAS QUE…..? Gracias a los análisis clínicos el médico puede evaluar
+                            tu estado de salud, y/o prevenir algunas enfermedades. Chécate mínimo 2 veces al año.</span>
                         <br><br>
                         <div class="row d-flex justify-content-center">
                             <div class="col-4  d-flex flex-column align-items-center mb-5 mb-lg-0">
@@ -130,7 +136,7 @@
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h4 class="text-center">Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00</h4>
+                                <h4 class="text-center">Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a 15:00H</h4>
                             </div>
 
                             <div class="col-4   d-flex flex-column align-items-center">
@@ -202,12 +208,13 @@
                                         <div class="col-5 ms-auto">
                                             <label style="color:red"><b>PRECIO PROMOCIÓN <span style="font-size: 2vw">
                                                         ${{ $item->CostoPaquetes }}</span></b></label>
-                                            <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
+                                            <p style="font-size: 0.7vw">Promoción válida hasta el 31 de diciembre 2022</p>
                                             <br>
 
 
                                             <label>No requiere previa cita <label>
-                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00<label>
+                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a
+                                                        15:00<label>
 
                                         </div>
                                     </div>
@@ -241,7 +248,8 @@
                                         <div class="col-12">
 
                                             <label><b>Consulta a tu Médico.</b></label><br>
-                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD
+                                                    DE
                                                     PACHUCA
                                                     HGO.</b></label>
 
@@ -286,12 +294,13 @@
                                         <div class="col-5 ms-auto">
                                             <label style="color:red"><b>PRECIO PROMOCIÓN <span style="font-size: 2vw">
                                                         ${{ $item->PrecioPerfiles }}</span></b></label>
-                                            <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
+                                            <p style="font-size: 0.7vw">Promoción válida hasta el 31 de diciembre 2022</p>
                                             <br>
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00<label>
+                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a
+                                                        15:00<label>
 
                                                             <br><br>
                                                             <button class="btn2 btn2-2 btn2-sep icon-cart"
@@ -307,7 +316,8 @@
                                         <div class="col-12">
 
                                             <label><b>Consulta a tu Médico.</b></label><br>
-                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD
+                                                    DE
                                                     PACHUCA
                                                     HGO.</b></label>
 
@@ -335,7 +345,7 @@
         document.getElementById("titulo2").classList.add('elegido');
 
         function opn(x) {
-            console.log(x);
+            //console.log(x);
             $('#Modal' + x).modal('show')
 
         }

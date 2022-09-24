@@ -62,7 +62,7 @@
                                 <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg" alt=""
                                     loading="lazy">
                             </div>
-                            <h4 class="text-center">Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00</h4>
+                            <h4 class="text-center">Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a 15:00H</h4>
                         </div>
 
                         <div class="col-4   d-flex flex-column align-items-center">
@@ -169,12 +169,13 @@
                                         <div class="col-5 ms-auto">
                                             <label style="color:red"><b>PRECIO PROMOCIÓN <span style="font-size: 2vw">
                                                         ${{ $item->CostoPaquetes }}</span></b></label>
-                                            <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
+                                            <p style="font-size: 0.7vw">Promoción válida hasta el 31 de diciembre 2022</p>
                                             <br>
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00<label>
+                                                    <label>Horario Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a
+                                                        15:00H<label>
 
                                         </div>
                                     </div>
@@ -195,7 +196,9 @@
                                         </div>
                                         <div class="col-5 ms-auto">
                                             <br><br>
-                                            <button class="btn2 btn2-2 btn2-sep icon-cart" onclick='redirect({{"\"el Paquete ".$item->NombrePaquetes."\"" }})'><b>Contactar Para
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart"
+                                                onclick='redirect({{ "\"el Paquete " . $item->NombrePaquetes . "\"" }})'><b>Contactar
+                                                    Para
                                                     Solicitar</b></button>
                                         </div>
 
@@ -254,12 +257,13 @@
                                         <div class="col-5 ms-auto">
                                             <label style="color:red"><b>PRECIO PROMOCIÓN <span style="font-size: 2vw">
                                                         ${{ $item->PrecioEstudios }}</span></b></label>
-                                            <p style="font-size: 0.7vw"> PROMOCIONES VALIDAS 31 DE DICIEMBRE 2022</p>
+                                            <p style="font-size: 0.7vw">Promoción válida hasta el 31 de diciembre 2022</p>
                                             <br>
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario: Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a 15:00<label>
+                                                    <label>Horario: Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a
+                                                        15:00H<label>
 
                                         </div>
                                     </div>
@@ -282,7 +286,9 @@
                                         </div>
                                         <div class="col-5 ms-auto">
                                             <br><br>
-                                            <button class="btn2 btn2-2 btn2-sep icon-cart" onclick='redirect({{"\"la ".$item->NombreEstudios."\"" }})'><b>Contactar Para
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart"
+                                                onclick='redirect({{ "\"la " . $item->NombreEstudios . "\"" }})'><b>Contactar
+                                                    Para
                                                     Solicitar</b></button>
                                         </div>
 
@@ -293,7 +299,8 @@
                                         <div class="col-12">
 
                                             <label><b>Consulta a tu Médico.</b></label><br>
-                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD DE
+                                            <label><b>CONTAMOS CON SERVICIO A DOMICILIO SIN COSTO EXTRA DENTRO DE LA CIUDAD
+                                                    DE
                                                     PACHUCA
                                                     HGO.</b></label>
 
@@ -321,7 +328,7 @@
                     <img class="card-img-top" src='img/InfoCovid.jpg' alt="...">
 
 
-                    
+
                 </div>
 
             </div>
@@ -355,10 +362,11 @@
             $('#Covi' + x).modal('show')
 
         }
+
         function redirect(x) {
-            
-            var url = "https://api.whatsapp.com/send?phone=527711585514&text=Hola Solicito "+x;
-            window.open( url,"_blank");
+
+            var url = "https://api.whatsapp.com/send?phone=527711585514&text=Hola Solicito " + x;
+            window.open(url, "_blank");
         }
     </script>
 @endpush
