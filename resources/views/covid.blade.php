@@ -83,7 +83,7 @@
                                 IgG e
                                 IgM </p>
                             <p style="font-size: 1.2vw"><i class="fa-solid fa-money-bill-1-wave fa-xl"></i><b> Costo:</b>
-                                $650.00 probando como los resultados funcionan 
+                                $650.00
                             </p>
                             <p style="font-size: 1.2vw">Indicaciones</p>
                             <p style="font-size: 1.2vw"><i class="fa-solid fa-check"></i> Ayuno 2h </p>
