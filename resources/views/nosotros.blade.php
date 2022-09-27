@@ -28,9 +28,9 @@
             </div>
         </div>
 
-        <div class="row ">
+        <div class="row align-items-center">
             <div class="row gx-3 align-items-center my-5" style="text-align: justify;">
-                <div class="col-6">
+                <div class="col-5 mx-5" style="border-style: double;">
                     <h1 class="font-weight-light">MISIÓN</h1>
                     <p> Somos un laboratorio de análisis clínicos comprometidos con la calidad técnica y humana en constante
                         crecimiento, aportando resultados confiables para la prevención y diagnóstico de la salud, logrando
@@ -39,7 +39,7 @@
 
 
                 </div>
-                <div class="col-6">
+                <div class="col-5" style="border-style: double;">
 
                     <h1 class="font-weight-light">VISIÓN</h1>
                     <p> Ser líderes en fomentar la cultura de la prevención al cuidado de la salud a través de análisis

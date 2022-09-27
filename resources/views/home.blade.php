@@ -62,7 +62,7 @@
                                 <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg" alt=""
                                     loading="lazy">
                             </div>
-                            <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a 15:00h</h5>
+                            <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h Sábados 7:30 a 15:00h</h5>
                         </div>
 
                         <div class="col-4   d-flex flex-column align-items-center">
@@ -174,7 +174,7 @@
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a
+                                                    <label>Horario Lunes a Viernes 07:00 a 19:00h Sábados 7:30 a
                                                         15:00h<label>
 
                                         </div>
@@ -245,9 +245,11 @@
                                         <div class="col-6">
                                             <b>Acerca de la Prueba:</b><br>
 
-                                            <label>{{ $item->DescripcionEstudios }}</label>
+                                            @foreach (explode('|', $item->DescripcionEstudios) as $index)
+                                                <label>{{ $index }}</label><br>
+                                            @endforeach
 
-                                            <br><br>
+                                            <br>
 
                                             <b>Tipo de Muestra:</b><br>
 
@@ -262,7 +264,7 @@
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario: Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a
+                                                    <label>Horario: Lunes a Viernes 07:00 a 19:00h Sábados 7:30 a
                                                         15:00h<label>
 
                                         </div>
@@ -344,6 +346,14 @@
 
 @push('scripts')
     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            $('#myCarousel').carousel({
+                interval: 3000,
+                cycle: true
+            });
+
+        });
+
         document.getElementById("titulo0").classList.add('elegido');
 
         window.onload = function() {

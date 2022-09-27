@@ -181,7 +181,7 @@
                                 <address> Av Solidaridad 218, Parque de Poblamiento,
                                     42032 Pachuca de Soto, Hgo.</address>
                                 <ul class="list-unstyled links ">
-                                    <li>Horario <a>Lunes a Viernes 07:00H a 19:00H  Sábados 7:30H a 15:00H</a></li>
+                                    <li>Horario <a>Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a 15:00h</a></li>
                                     <li>Telefonos:<a>771 158 5514 </a>,<a> 771 165 0424</a></li>
                                     <li>Email:<a>ventas@laboratoriopromedica.com</a></li>
                                 </ul>

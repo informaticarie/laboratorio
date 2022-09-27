@@ -105,7 +105,7 @@
                     </button>
                 </div>
                 <div class="col-12">
-                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="6000">
 
                         <div class="carousel-inner">
 
@@ -120,8 +120,10 @@
             <div class="row" style="margin-top: 4vw;">
                 <div class="iconfooter">
                     <div class="container">
-                        <span style="font-size:2vw">¿SABIAS QUE…..?</span><br><span style="font-size:1.2vw"> Gracias a los análisis clínicos el médico puede evaluar
-                            tu estado de salud y/o prevenir algunas enfermedades.</span> <span  style="font-weight: bold;font-size:1.2vw">Chécate mínimo 2 veces al año.</span>
+                        <span style="font-size:2vw">¿SABIAS QUE…..?</span><br><span style="font-size:1.2vw"> Gracias a los
+                            análisis clínicos el médico puede evaluar
+                            tu estado de salud y/o prevenir algunas enfermedades.</span> <span
+                            style="font-weight: bold;font-size:1.2vw">Chécate mínimo 2 veces al año.</span>
                         <br><br>
                         <div class="row d-flex justify-content-center">
                             <div class="col-4  d-flex flex-column align-items-center mb-5 mb-lg-0">
@@ -136,7 +138,7 @@
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg"
                                         alt="" loading="lazy">
                                 </div>
-                                <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a 15:00h</h5>
+                                <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h Sábados 7:30 a 15:00h</h5>
                             </div>
 
                             <div class="col-4   d-flex flex-column align-items-center">
@@ -310,6 +312,23 @@
 
                                         </div>
                                     </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <b>Indicaciones:</b><br>
+
+                                            @foreach (explode('|', $item->IndicacionesPerfiles) as $index)
+                                                <label>{{ $index }}</label><br>
+                                            @endforeach
+                                            <br><br>
+
+
+
+
+                                        </div>
+
+
+                                    </div>
 
                                     <br>
                                     <div class="row" align="center">
@@ -342,6 +361,19 @@
 
 @push('scripts')
     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            $('#carouselExampleIndicators2').carousel({
+                interval: 3000,
+                cycle: true
+            });
+            $('#CarruselPerfiles').carousel({
+                interval: 3000,
+                cycle: true
+            });
+        });
+
+
+
         document.getElementById("titulo2").classList.add('elegido');
 
         function opn(x) {
