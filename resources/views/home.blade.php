@@ -375,7 +375,7 @@
 
         function redirect(x) {
 
-            var url = "https://api.whatsapp.com/send?phone=527711585514&text=Hola Solicito " + x;
+            var url = "https://api.whatsapp.com/send?phone=527711585514&text=¡Hola! Solicito " + x;
             window.open(url, "_blank");
         }
     </script>

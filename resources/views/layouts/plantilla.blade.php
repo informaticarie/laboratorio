@@ -214,7 +214,7 @@
         </div>
     </div>
     <div class="whats">
-        <a href="https://api.whatsapp.com/send?phone=527711585514&text=Hola, Necesito más informacion!"
+        <a href="https://api.whatsapp.com/send?phone=527711585514&text=¡Hola!, Necesito más información"
             target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i><span style="font-size:1.2vw"><br>¡COTIZA
                 <br>AHORA!</span></a>
     </div>

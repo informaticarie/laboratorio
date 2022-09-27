@@ -384,7 +384,7 @@
 
         function redirect(x) {
 
-            var url = "https://api.whatsapp.com/send?phone=527711585514&text=Hola Solicito el Paquete " + x;
+            var url = "https://api.whatsapp.com/send?phone=527711585514&text=¡Hola! Solicito el Paquete " + x;
             window.open(url, "_blank");
         }
     </script>
