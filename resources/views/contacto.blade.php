@@ -19,14 +19,14 @@
 
 						<div class="address mt-4">
 							<i class="icon-room"></i>
-							<h4 class="mb-2">Ubicación:</h4>
+							<h4 class="mb-2" style="font-weight: bold;">Ubicación:</h4>
 							<p>Av Solidaridad 218, Parque de Poblamiento,
                                 42032 Pachuca de Soto, Hgo.</p>
 						</div>
 
 						<div class="open-hours mt-4">
 							<i class="icon-clock-o"></i>
-							<h4 class="mb-2">Horario:</h4>
+							<h4 class="mb-2" style="font-weight: bold;">Horario:</h4>
 							<p>
 								
 								Lunes a Viernes:<br>07:00 a 19:00h <br>Sábados: <br>07:30 a 15:00h
@@ -35,13 +35,13 @@
 
 						<div class="email mt-4">
 							<i class="icon-envelope"></i>
-							<h4 class="mb-2">Email:</h4>
+							<h4 class="mb-2" style="font-weight: bold;">Email:</h4>
 							<p>ventas@laboratoriopromedica.com</p>
 						</div>
 
 						<div class="phone mt-4">
 							<i class="icon-phone"></i>
-							<h4 class="mb-2">Telefonos:</h4>
+							<h4 class="mb-2" style="font-weight: bold;">Telefonos:</h4>
 							<p>771 158 5514 , 771 165 0424</p>
 						</div>
 

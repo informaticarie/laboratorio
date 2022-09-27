@@ -176,7 +176,7 @@
 
 
                         <div class="col-6">
-                            <div class="widget" style="text-align: justify">
+                            <div class="widget" style="text-align: justify;font-weight: bold;">
                                 <h3>Ubicación</h3>
                                 <address> Av Solidaridad 218, Parque de Poblamiento,
                                     42032 Pachuca de Soto, Hgo.</address>
@@ -198,7 +198,7 @@
 
                 </div>
                 <div class="col-6">
-                    <a class="btn btn-primary" href="#">Términos y Condiciones</a>
+                    <a class="btn btn-primary" href="Documentos/Terminos_condiciones.pdf" target="_blank" >Términos y Condiciones</a>
                 </div>
             </div>
 

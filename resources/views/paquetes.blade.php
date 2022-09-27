@@ -92,7 +92,8 @@
             <div class="container  px-5 mt-5">
                 <img src="img/Botones/Paquetes.png" class="img-fluid" style="width: 30%;margin-bottom: 10px;">
 
-                <div class="col-12" align="right">
+                <div class="col-12 popup" align="right">
+                    <span class="blink popuptext " id="myPopPaquetes">Para ver más Paquetes oprime alguno de estos botones</span>
                     <button class="carousel-control-prev2" type="button" data-bs-target="#carouselExampleIndicators2"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,7 +121,7 @@
             <div class="row" style="margin-top: 4vw;">
                 <div class="iconfooter">
                     <div class="container">
-                        <span style="font-size:2vw">¿SABIAS QUE…..?</span><br><span style="font-size:1.2vw"> Gracias a los
+                        <span style="font-size:2vw;font-weight: bold;">¿SABIAS QUE…..?</span><br><span style="font-size:1.2vw"> Gracias a los
                             análisis clínicos el médico puede evaluar
                             tu estado de salud y/o prevenir algunas enfermedades.</span> <span
                             style="font-weight: bold;font-size:1.2vw">Chécate mínimo 2 veces al año.</span>
@@ -155,17 +156,20 @@
 
             <div class="container px-4 px-lg-5 mt-5">
                 <img src="img/Botones/Perfiles.png" class="img-fluid" style="width: 30%;margin-bottom: 10px;">
-                <div class="col-12" align="right">
-                    <button class="carousel-control-prev2" type="button" data-bs-target="#CarruselPerfiles"
+                
+                <div class="col-12 popup" align="right">
+                    <span class="blink popuptext " id="myPopPerfiles">Para ver más Perfiles oprime alguno de estos botones</span>
+                    <button class="carousel-control-prev2 botnmove" type="button" data-bs-target="#CarruselPerfiles"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next2" type="button" data-bs-target="#CarruselPerfiles"
+                    <button class="carousel-control-next2 botnmove" type="button" data-bs-target="#CarruselPerfiles"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+
                 </div>
                 <div class="col-12">
                     <div id="CarruselPerfiles" class="carousel slide" data-ride="carousel">
@@ -237,8 +241,8 @@
                                         </div>
                                         <div class="col-5 ms-auto">
                                             <br><br>
-                                            <button class="btn2 btn2-2 btn2-sep icon-cart"
-                                                onclick='redirect({{ "\"" . $item->NombrePaquetes . "\"" }})'><b>Contactar
+                                            <button class="btn2 btn2-2 btn2-sep icon-cart blink2"
+                                                onclick='redirect({{ "\"" . $item->NombrePaquetes . "\"" }})'><b> Clic Aquí
                                                     Para
                                                     Solicitar</b></button>
                                         </div>
@@ -305,8 +309,8 @@
                                                         15:00<label>
 
                                                             <br><br>
-                                                            <button class="btn2 btn2-2 btn2-sep icon-cart"
-                                                                onclick='redirect({{ "\"" . $item->NombrePerfiles . "\"" }})'><b>Contactar
+                                                            <button class="btn2 btn2-2 btn2-sep icon-cart blink2"
+                                                                onclick='redirect({{ "\"" . $item->NombrePerfiles . "\"" }})'><b>Clic Aquí
                                                                     Para Solicitar</b></button>
 
 
@@ -371,7 +375,14 @@
                 cycle: true
             });
         });
+       
+       
+            var popup = document.getElementById("myPopPaquetes");
+            popup.classList.toggle("show");
 
+            var popup = document.getElementById("myPopPerfiles");
+            popup.classList.toggle("show");
+      
 
 
         document.getElementById("titulo2").classList.add('elegido');
