@@ -219,6 +219,15 @@
                 <br>AHORA!</span></a>
     </div>
 
+    <!--<div class="cookie-message cookie-message--open" data-type="cookie">
+        <div class="cookie-message__container">
+            <div class="cookie-message__text">
+                                <p>En Laboratorio médico del chopo utilizamos <strong>cookies</strong> para <strong>mejorar tu experiencia</strong> de compra. Si continuas navegando, estarás aceptando su uso. <a class="cookie-message__link" title="Mas información" href="https://www.chopo.com.mx/hidalgo/privacidad/">Mas información</a></p>                    </div>
+            <button class="cookie-message__close button button--secondary" type="button">
+                Acepto        </button>
+        </div>
+    </div>-->
+
 
     @stack('scripts')
 </body>

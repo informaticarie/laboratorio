@@ -475,3 +475,20 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
 .carousel-control-prev2, .carousel-control-next2{
   opacity: 1;
 }
+
+.cookie-message--open {
+  display: flex;
+}
+
+.cookie-message {
+  display: none;
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid #91dd0b;
+  box-sizing: border-box;
+  z-index: 999999;
+  padding: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
