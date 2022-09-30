@@ -143,11 +143,21 @@
                             </div>
 
                             <div class="col-4   d-flex flex-column align-items-center">
-                                <div class="card card-icon border-0 mb-3">
-                                    <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
-                                        alt="" loading="lazy">
+                                <div class="row">
+                                    <div class="col-4  d-flex flex-column align-items-center">
+                                        <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/whats.svg"
+                                            alt="" loading="lazy">whatsapp
+                                    </div>
+                                    <div class="col-4  d-flex flex-column align-items-center">
+                                        <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
+                                            alt="" loading="lazy">Fisicos
+                                    </div>
+                                    <div class="col-4  d-flex flex-column align-items-center">
+                                        <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/email.svg"
+                                            alt="" loading="lazy">Correo
+                                    </div>
                                 </div>
-                                <h4 class="text-center">Entrega o envio de resultados en PDF</h4>
+                                <h4 class="text-center">Entrega de resultados</h4>
                             </div>
                         </div>
                     </div>

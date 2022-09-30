@@ -122,13 +122,13 @@
 /* youtube link */
 .whats {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 160px;
+  bottom: 0.7320644216691069vw;
+  right: 0.7320644216691069vw;
+  width: 11.71303074670571vw;
   text-align: center;
-  padding: 15px 10px;
+  padding: 1.0980966325036603vw 0.7320644216691069vw;
   background: #1dd61d;
-  border-radius: 5px;
+  border-radius: 0.36603221083455345vw;
 }
 
 .whats a {
