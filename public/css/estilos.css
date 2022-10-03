@@ -109,6 +109,8 @@
 
 }
 
+
+
 .CambiaCarrusel:hover {
   background-image: linear-gradient(to right,
       #303066, #484870, #4e4e6d);
@@ -119,17 +121,102 @@
 
 }
 
-/* youtube link */
-.whats {
-  position: fixed;
-  bottom: 0.7320644216691069vw;
-  right: 0.7320644216691069vw;
-  width: 11.71303074670571vw;
-  text-align: center;
-  padding: 1.0980966325036603vw 0.7320644216691069vw;
-  background: #1dd61d;
-  border-radius: 0.36603221083455345vw;
-}
+
+ @media screen and (orientation:landscape) { 
+  
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 160px;
+    text-align: center;
+    padding: 15px 10px;
+    background: #1dd61d;
+    border-radius: 5px;
+  }
+
+
+  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 160px;
+    text-align: center;
+    padding: 15px 10px;
+    background: #1dd61d;
+    border-radius: 5px;
+  }
+ }
+
+
+@media (min-width: 1200px) {
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 160px;
+    text-align: center;
+    padding: 15px 10px;
+    background: #1dd61d;
+    border-radius: 5px;
+  }
+ }
+
+ }
+
+ @media screen and (orientation:portrait) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .whats {
+      position: fixed;
+      bottom: 986px;
+      right: 10px;
+      width: 160px;
+      text-align: center;
+      padding: 15px 10px;
+      background: #1dd61d;
+      border-radius: 5px;
+    }
+  
+  
+    }
+  
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .whats {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 160px;
+      text-align: center;
+      padding: 15px 10px;
+      background: #1dd61d;
+      border-radius: 5px;
+    }
+   }
+  
+  
+  @media (min-width: 1200px) {
+    .whats {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 160px;
+      text-align: center;
+      padding: 15px 10px;
+      background: #1dd61d;
+      border-radius: 5px;
+    }
+   }
+
+ }
+
+
 
 .whats a {
   text-decoration: none;

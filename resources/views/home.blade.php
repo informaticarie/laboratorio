@@ -69,15 +69,15 @@
                             
 
                             <div class="row">
-                                <div class="col-4  d-flex flex-column align-items-center">
+                                <div class="col-4  d-flex flex-column align-items-center " >
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/whats.svg"
                                         alt="" loading="lazy">whatsapp
                                 </div>
-                                <div class="col-4  d-flex flex-column align-items-center">
+                                <div class="col-4  d-flex flex-column align-items-center " style="padding-left:2.4vw;">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
                                         alt="" loading="lazy">Fisicos
                                 </div>
-                                <div class="col-4  d-flex flex-column align-items-center">
+                                <div class="col-4  d-flex flex-column align-items-center" style="padding-left:2.3vw">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/email.svg"
                                         alt="" loading="lazy">Correo
                                 </div>

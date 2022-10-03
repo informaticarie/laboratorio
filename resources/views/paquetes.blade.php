@@ -89,7 +89,7 @@
 
         <section class="py-5">
 
-            <div class="container  px-5 mt-5">
+            <div class="container  ">
                 <img src="img/Botones/Paquetes.png" class="img-fluid" style="width: 30%;margin-bottom: 10px;">
 
                 <div class="col-12 popup" align="right">
@@ -144,15 +144,15 @@
 
                             <div class="col-4   d-flex flex-column align-items-center">
                                 <div class="row">
-                                    <div class="col-4  d-flex flex-column align-items-center">
+                                    <div class="col-4  d-flex flex-column align-items-center " >
                                         <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/whats.svg"
                                             alt="" loading="lazy">whatsapp
                                     </div>
-                                    <div class="col-4  d-flex flex-column align-items-center">
+                                    <div class="col-4  d-flex flex-column align-items-center " style="padding-left:2.4vw;">
                                         <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
                                             alt="" loading="lazy">Fisicos
                                     </div>
-                                    <div class="col-4  d-flex flex-column align-items-center">
+                                    <div class="col-4  d-flex flex-column align-items-center" style="padding-left:2.3vw">
                                         <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/email.svg"
                                             alt="" loading="lazy">Correo
                                     </div>
@@ -164,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="container px-4 px-lg-5 mt-5">
+            <div class="container px-4 mt-5">
                 <img src="img/Botones/Perfiles.png" class="img-fluid" style="width: 30%;margin-bottom: 10px;">
                 
                 <div class="col-12 popup" align="right">
