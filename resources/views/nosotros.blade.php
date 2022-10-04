@@ -8,9 +8,8 @@
         <div class="row ">
 
             <div class="row gx-5 align-items-center my-5" style="text-align: justify;">
-                <div class="col-5"><img class="img-fluid rounded mb-4 mb-lg-0" src="{{ asset('img/quien.png') }}"
-                        alt="..."></div>
-                <div class="col-7">
+                <div class="col-5"><img class="img-fluid rounded mb-0" src="{{ asset('img/quien.png') }}" alt="..."></div>
+                <div class="col-7 contornoPrin">
                     <h1 class="font-weight-light">¿Quiénes somos?</h1>
                     <p> Laboratorio ProMédica surge en el año 2015 en Pachuca de Soto Hgo. Con el objetivo de ayudar al
                         diagnóstico oportuno y preventivo de la salud, a través de una amplia gama de estudios de
@@ -28,55 +27,74 @@
             </div>
         </div>
 
-        <div class="row align-items-center">
-            <div class="row gx-3 align-items-center my-5" style="text-align: justify;">
-                <div class="col-5 mx-5" style="border-style: double;">
-                    <h1 class="font-weight-light">MISIÓN</h1>
-                    <p> Somos un laboratorio de análisis clínicos comprometidos con la calidad técnica y humana en constante
+
+        <div class="row contornoPrin">
+            <div class="col-4" style="margin-bottom: 12vw;">
+                <span style="padding: 2vw;">
+                    <img src="img/Botones/mision.png" class="img-fluid" style="width: 80%; ">
+                </span>
+
+                <p class="probandoBorde"><b> Somos un laboratorio de análisis clínicos comprometidos con la calidad
+                        técnica y humana en constante
                         crecimiento, aportando resultados confiables para la prevención y diagnóstico de la salud, logrando
-                        así la satisfacción de las necesidades de nuestros usuarios.
-                    </p>
+                        así la satisfacción de las necesidades de nuestros usuarios.</b>
+                </p>
 
-
-                </div>
-                <div class="col-5" style="border-style: double;">
-
-                    <h1 class="font-weight-light">VISIÓN</h1>
-                    <p> Ser líderes en fomentar la cultura de la prevención al cuidado de la salud a través de análisis
-                        clínicos, para mejorar la calidad de vida en generaciones presentes y futuras, con la excelencia y
-                        calidad que nos distingue con un enfoque de responsabilidad social y satisfacción de nuestros
-                        pacientes.
-                    </p>
-
-                </div>
 
             </div>
+            <div class="col-4">
+                <br>
+                <br>
+                <img class="img-fluid rounded mb-0" src="{{ asset('img/mivifle.png') }}" alt="...">
+
+            </div>
+            <div class="col-4" style="margin-top: 12vw">
+                <span style="padding: 2vw;">
+                    <img src="img/Botones/vision.png" class="img-fluid" style="width: 80%;">
+                </span>
+
+
+                <p class="probandoBorde"><b> Ser líderes en fomentar la cultura de la prevención al cuidado de la salud a
+                        través de análisis
+                        clínicos, para mejorar la calidad de vida en generaciones presentes y futuras, con la excelencia y
+                        calidad que nos distingue con un enfoque de responsabilidad social y satisfacción de nuestros
+                        pacientes.</b>
+                </p>
+
+            </div>
+
         </div>
+
 
 
         <div class="row ">
             <div class="row gx-3 align-items-center my-5">
-                <div class="col-7">
+                <div class="col-10 contornoPrin">
 
-                    <h1 class="font-weight-light">VALORES</h1>
-                   
-                    <div class="row">
+                    <h1 class="font-weight-light">NUESTROS VALORES</h1>
+
+                    <div style="margin-top: 2vw" class="row ">
                         <div class="col-4">
                             <ul>
 
-                                <li>Amor</li>
-                                <li>Ética</li>
-                                <li>Compromiso</li>
-                                <li>Resolución</li>
+                                <li><i style="color: #303066" class="fa-solid fa-heart-circle-check fa-2xl"></i>&nbsp;&nbsp;Amor</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-scale-balanced fa-2xl"></i>&nbsp;&nbsp;Ética</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-people-group fa-2xl"></i>&nbsp;&nbsp;Compromiso</li>
+
                             </ul>
                         </div>
                         <div class="col-4">
                             <ul>
+                                <li><i style="color: #303066" class="fa-solid fa-person-digging fa-2xl"></i>&nbsp;&nbsp;Resolución</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-hand-holding-medical fa-2xl"></i>Pasión</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-people-carry-box fa-2xl"></i>&nbsp;&nbsp;Responsabilidad</li>
 
-                                <li>Pasión</li>
-                                <li>Responsabilidad</li>
-                                <li>Puntualidad</li>
-                                <li>Claridad</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li><i style="color: #303066" class="fa-solid fa-user-clock fa-2xl"></i>&nbsp;&nbsp;Puntualidad</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-handshake-angle fa-2xl"></i>&nbsp;&nbsp;Claridad</li>
                             </ul>
                         </div>
 
@@ -88,10 +106,7 @@
                 </div>
 
 
-                <div class="col-5">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="{{ asset('img/analisis.jpg') }}" alt="...">
 
-                </div>
             </div>
         </div>
     </div>

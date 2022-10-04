@@ -579,3 +579,23 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   bottom: 0;
   left: 0;
 }
+
+.probandoBorde{
+  margin-top: 0.5vw!important;
+  text-align: justify!important;
+  background-color: #303066!important;
+  border-radius:30px!important;
+  padding-left: 12px!important;
+  padding-right: 12px!important;
+  color: white;
+    
+}
+
+.contornoPrin{
+  border-radius:30px!important;
+  padding-left: 12px!important;
+  padding-right: 12px!important;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #303066;
+}
