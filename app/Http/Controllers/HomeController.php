@@ -54,7 +54,7 @@ class HomeController extends Controller
                          
                                 </div>
                                 <div class="col-12  titucardHome">
-                                <label><i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp;&nbsp;' . $EstudioCovid[$i]['NombreEstudios'] . '</label>
+                                <label style="line-height: 13px;"><i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp;&nbsp;' . $EstudioCovid[$i]['NombreEstudios'] . '</label>
                                 </div>
                             
                                
@@ -90,7 +90,7 @@ class HomeController extends Controller
                             <p class="img__description"><b>'.str_replace('|', ', ', $EstudioCovid[$i]['TipoMuestraEstudios']).'</b></p>
                             </div>
                             <div class="col-12  titucardHome">
-                            <label><i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp;&nbsp;' . $EstudioCovid[$i]['NombreEstudios'] . '</label>
+                            <label  style="line-height: 13px;"><i class="fa-solid fa-shield-virus fa-xl"></i>&nbsp;&nbsp;' . $EstudioCovid[$i]['NombreEstudios'] . '</label>
                             </div>
                             
                        
@@ -135,7 +135,7 @@ class HomeController extends Controller
                          
                                 </div>
                                 <div class="col-12  titucardHome">
-                                <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $PaquetesPromocion[$i]['NombrePaquetes'] . '</label>
+                                <label  style="line-height: 13px;"><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $PaquetesPromocion[$i]['NombrePaquetes'] . '</label>
                                 </div>
                             
                             
@@ -168,7 +168,7 @@ class HomeController extends Controller
                          <p class="img__description"><b>'.str_replace('|', ', ', $PaquetesPromocion[$i]['ContienePaquetes']).'</b></p>
                          </div>
                             <div class="col-12  titucardHome">
-                            <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $PaquetesPromocion[$i]['NombrePaquetes'] . '</label>
+                            <label  style="line-height: 13px;"><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $PaquetesPromocion[$i]['NombrePaquetes'] . '</label>
                             </div>
                             
                        
@@ -245,7 +245,7 @@ class HomeController extends Controller
                              <p class="img__description"><b>'.str_replace('|', ', ', $TodosPaquetes[$i]['ContienePaquetes']).'</b></p>
                              </div>
                                 <div class="col-12  titucard">
-                                <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPaquetes[$i]['NombrePaquetes'] . '</label>
+                                <label  style="line-height: 13px;"><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPaquetes[$i]['NombrePaquetes'] . '</label>
                                 </div>
                             
                            
@@ -287,7 +287,7 @@ class HomeController extends Controller
                             <p class="img__description"><b>'.str_replace('|', ', ', $TodosPaquetes[$i]['ContienePaquetes']).'</b></p>
                             </div>
                             <div class="col-12  titucard">
-                            <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPaquetes[$i]['NombrePaquetes'] . '</label>
+                            <label  style="line-height: 13px;"><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPaquetes[$i]['NombrePaquetes'] . '</label>
                             </div>
                             
                        
@@ -333,7 +333,7 @@ class HomeController extends Controller
                              
                             </div>
                                 <div class="col-12  titucard">
-                                <label><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPerfiles[$b]['NombrePerfiles'] . '</label>
+                                <label  style="line-height: 13px;"><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPerfiles[$b]['NombrePerfiles'] . '</label>
                                 </div>
                             
                             </div>
@@ -367,7 +367,7 @@ class HomeController extends Controller
                              
                             </div>
                             <div class="col-12  titucard">
-                            <label ><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPerfiles[$b]['NombrePerfiles'] . '</label>
+                            <label  style="line-height: 13px;"><i class="fa-solid fa-flask-vial fa-xl"></i>&nbsp;&nbsp;' . $TodosPerfiles[$b]['NombrePerfiles'] . '</label>
                             </div>
                             
                        

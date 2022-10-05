@@ -316,10 +316,12 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   text-decoration: none;
   -webkit-appearance: none;
 
-  bottom: 0.3vw;
+  bottom: -0.6vw;
   position: absolute;
   right: 1vw;
   font-size: 1vw;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .row {
