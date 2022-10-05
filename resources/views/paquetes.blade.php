@@ -121,7 +121,7 @@
             <div class="row" style="margin-top: 4vw;">
                 <div class="iconfooter">
                     <div class="container">
-                        <span style="font-size:2vw;font-weight: bold;">¿SABIAS QUE…..?</span><br><span style="font-size:1.2vw"> Gracias a los
+                        <span style="font-size:2vw;font-weight: bold;">¿SABÍAS QUÉ…..?</span><br><span style="font-size:1.2vw"> Gracias a los
                             análisis clínicos el médico puede evaluar
                             tu estado de salud y/o prevenir algunas enfermedades.</span> <span
                             style="font-weight: bold;font-size:1.2vw">Chécate mínimo 2 veces al año.</span>
@@ -150,7 +150,7 @@
                                     </div>
                                     <div class="col-4  d-flex flex-column align-items-center " style="padding-left:2.4vw;">
                                         <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
-                                            alt="" loading="lazy">Fisicos
+                                            alt="" loading="lazy">Impresos
                                     </div>
                                     <div class="col-4  d-flex flex-column align-items-center" style="padding-left:2.3vw">
                                         <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/email.svg"
@@ -229,8 +229,8 @@
 
 
                                             <label>No requiere previa cita <label>
-                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a
-                                                        15:00<label>
+                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00h y Sábados 7:30 a
+                                                        15:00h<label>
 
                                         </div>
                                     </div>
@@ -315,8 +315,8 @@
 
 
                                             <label>No requiere previa cita<label>
-                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00 y Sábados 7:30 a
-                                                        15:00<label>
+                                                    <label>Horario:Lunes a Viernes 07:00 a 19:00h y Sábados 7:30 a
+                                                        15:00h<label>
 
                                                             <br><br>
                                                             <button class="btn2 btn2-2 btn2-sep icon-cart blink2"

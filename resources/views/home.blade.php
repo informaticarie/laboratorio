@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="col-4  d-flex flex-column align-items-center " style="padding-left:2.4vw;">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
-                                        alt="" loading="lazy">Fisicos
+                                        alt="" loading="lazy">Impresos
                                 </div>
                                 <div class="col-4  d-flex flex-column align-items-center" style="padding-left:2.3vw">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/email.svg"
