@@ -17,32 +17,32 @@
                 <div class="col-1"></div>
                 <div class="text-center col-2 ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="" loading="lazy">
-                        <li><label class="label-mini-icon">Química clínica</label>
+                        <li><p class="label-mini-icon">Química clínica</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Hema.svg" loading="lazy"
                             class="min-icon">
-                        <li><label class="label-mini-icon">Hematología</label></li>
+                        <li><p class="label-mini-icon">Hematología</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Bio.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Biología <br> molecular</label></li>
+                        <li><p class="label-mini-icon">Biología <br> molecular</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Cit.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Citogenética</label></li>
+                        <li><p class="label-mini-icon">Citogenética</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/His.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Histopatología</label></li>
+                        <li><p class="label-mini-icon">Histopatología</p></li>
                     </ul>
                 </div>
                 <div class="col-1"></div>
@@ -52,34 +52,34 @@
                 <div class="text-center col-2 ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inm.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Inmunología</label>
+                        <li><p class="label-mini-icon">Inmunología</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inf.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Infectología y Urianálisis</label>
+                        <li><p class="label-mini-icon">Infectología y Urianálisis</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Inmunoquímica</label>
+                        <li><p class="label-mini-icon">Inmunoquímica</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Micro.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Microbiología y Parasitología</label></li>
+                        <li><p class="label-mini-icon">Microbiología y Parasitología</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2 ">
                     <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Toxi.svg" alt=""
                             loading="lazy">
-                        <li><label class="label-mini-icon">Toxicología </label></li>
+                        <li><p class="label-mini-icon">Toxicología </p></li>
                     </ul>
                 </div>
                 <div class="col-1"></div>
@@ -314,9 +314,9 @@
                                             <br>
 
 
-                                            <label>No requiere previa cita<label>
+                                            <label>No requiere previa cita</label>
                                                     <label>Horario:Lunes a Viernes 07:00 a 19:00h y Sábados 7:30 a
-                                                        15:00h<label>
+                                                        15:00h</label>
 
                                                             <br><br>
                                                             <button class="btn2 btn2-2 btn2-sep icon-cart blink2"

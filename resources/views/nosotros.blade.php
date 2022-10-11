@@ -54,11 +54,9 @@
                 </span>
 
 
-                <p class="probandoBorde"><b> Ser líderes en fomentar la cultura de la prevención al cuidado de la salud a
-                        través de análisis
-                        clínicos, para mejorar la calidad de vida en generaciones presentes y futuras, con la excelencia y
-                        calidad que nos distingue con un enfoque de responsabilidad social y satisfacción de nuestros
-                        pacientes.</b>
+                <p class="probandoBorde"><b> Ser el mejor grupo de apoyo al diagnóstico para pacientes y médicos; y líderes
+                        en fomentar la cultura de la prevención al cuidado de la salud, para mejorar la calidad de vida en
+                        generaciones presentes y futuras, con la excelencia y calidad que nos distingue.</b>
                 </p>
 
             </div>
@@ -77,24 +75,32 @@
                         <div class="col-4">
                             <ul>
 
-                                <li><i style="color: #303066" class="fa-solid fa-heart-circle-check fa-2xl"></i>&nbsp;&nbsp;Amor</li>
-                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-scale-balanced fa-2xl"></i>&nbsp;&nbsp;Ética</li>
-                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-people-group fa-2xl"></i>&nbsp;&nbsp;Compromiso</li>
+                                <li><i style="color: #303066"
+                                        class="fa-solid fa-heart-circle-check fa-2xl"></i>&nbsp;&nbsp;Amor</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066"
+                                        class="fa-solid fa-scale-balanced fa-2xl"></i>&nbsp;&nbsp;Ética</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066"
+                                        class="fa-solid fa-people-group fa-2xl"></i>&nbsp;&nbsp;Compromiso</li>
 
                             </ul>
                         </div>
                         <div class="col-4">
                             <ul>
-                                <li><i style="color: #303066" class="fa-solid fa-person-digging fa-2xl"></i>&nbsp;&nbsp;Resolución</li>
-                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-hand-holding-medical fa-2xl"></i>Pasión</li>
-                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-people-carry-box fa-2xl"></i>&nbsp;&nbsp;Responsabilidad</li>
+                                <li><i style="color: #303066"
+                                        class="fa-solid fa-person-digging fa-2xl"></i>&nbsp;&nbsp;Resolución</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066"
+                                        class="fa-solid fa-hand-holding-medical fa-2xl"></i>Pasión</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066"
+                                        class="fa-solid fa-people-carry-box fa-2xl"></i>&nbsp;&nbsp;Responsabilidad</li>
 
                             </ul>
                         </div>
                         <div class="col-4">
                             <ul>
-                                <li><i style="color: #303066" class="fa-solid fa-user-clock fa-2xl"></i>&nbsp;&nbsp;Puntualidad</li>
-                                <li style="margin-top: 2vw"><i style="color: #303066" class="fa-solid fa-handshake-angle fa-2xl"></i>&nbsp;&nbsp;Claridad</li>
+                                <li><i style="color: #303066"
+                                        class="fa-solid fa-user-clock fa-2xl"></i>&nbsp;&nbsp;Puntualidad</li>
+                                <li style="margin-top: 2vw"><i style="color: #303066"
+                                        class="fa-solid fa-handshake-angle fa-2xl"></i>&nbsp;&nbsp;Claridad</li>
                             </ul>
                         </div>
 

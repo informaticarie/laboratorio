@@ -601,3 +601,7 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   border-style: solid;
   border-color: #303066;
 }
+
+.tamaline{
+  line-height:1.2vw;
+}

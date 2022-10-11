@@ -164,12 +164,14 @@
                         <div class="col-6">
                             <div class="widget">
 
+                                <br>
                                 <img class="card-img-top diseLogo"
-                                    style="width:45%;
-                                height: 45%; background-color: white;opacity: 0.5;"
+                                    style="width:55%;
+                                height: 50%; background-color: white;opacity: 0.5;"
                                     src='img/pacal.png' alt="...">
 
                             </div>
+
 
                         </div>
 
@@ -177,18 +179,28 @@
 
                         <div class="col-6">
                             <div class="widget" style="text-align: justify;font-weight: bold;">
+                                <address>
+                                    Responsable sanitario: Q.F.B. María Elena Alarcón Méndez <br>Céd. 1929881
+                                    Universidad
+                                    Veracruzana
+                                </address>
+                                <hr style="border: 1px solid "></hr>
                                 <h3>Ubicación</h3>
                                 <address> Av Solidaridad 218, Parque de Poblamiento,
                                     42032 Pachuca de Soto, Hgo.</address>
                                 <ul class="list-unstyled links ">
-                                    <li>Horario <a>Lunes a Viernes 07:00 a 19:00h  Sábados 7:30 a 15:00h</a></li>
+                                    <li>Horario <a>Lunes a Viernes 07:00 a 19:00h Sábados 7:30 a 15:00h</a></li>
                                     <li>Telefonos:<a>771 158 5514 </a>,<a> 771 165 0424</a></li>
                                     <li>Email:<a>ventas@laboratoriopromedica.com</a></li>
                                 </ul>
+
+
                             </div> <!-- /.widget -->
                         </div> <!-- /.col-lg-3 -->
 
                     </div> <!-- /.row -->
+
+
 
 
                 </div>
@@ -198,7 +210,8 @@
 
                 </div>
                 <div class="col-6">
-                    <a class="btn btn-primary" href="Documentos/Terminos_condiciones.pdf" target="_blank" >Términos y Condiciones</a>
+                    <a class="btn btn-primary" href="Documentos/Terminos_condiciones.pdf" target="_blank">Términos y
+                        Condiciones</a>
                 </div>
             </div>
 
