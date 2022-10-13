@@ -206,7 +206,7 @@
                 </div>
 
                 <div class="col-6">
-                    <a class="btn btn-primary" href="#">Aviso de Privacidad</a>
+                    <a class="btn btn-primary" href="Documentos/AVISOPRIVACIDAD.pdf" target="_blank">Aviso de Privacidad</a>
 
                 </div>
                 <div class="col-6">
