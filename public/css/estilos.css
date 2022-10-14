@@ -467,11 +467,14 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
 }
 
 .diseDiv {
+  
+  background: linear-gradient(to bottom, white 10%, #303066 90%);
+  
   border-top: 3vw solid white;
-  border-bottom: 8.125915080527086vw solid #303066;
+  border-bottom: 9.125915080527086vw solid #303066;
   border-left: 4.172767203513909vw solid white;
-  /* border-right: 32px solid transparent; */
   height: 0;
+  
 }
 
 .tamañoIcon {

@@ -29,10 +29,13 @@
 
 
 
-        <section id="hero" style="background-color: #303066; color:white">
-            <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
-                <div class="row justify-content-between">
-                    <div class="col-4" style="background-color: white">
+        <section id="hero" style=" background-color: #303066;  color:white ">
+            <div class="container-fluid  img-fluid"  style="padding-right: 0px;padding-left: 0px;background-image: url('img/general.png');background-size: cover;
+            background-repeat: no-repeat;">
+                <div class="row justify-content-between" style="/* background-color: white; *//* border-bottom-color: #303066; */">
+                    
+                    <p class="div2"></p>
+                    <div class="col-4" >
 
                         <ul class="nav col-12 col-auto  justify-content-center  text-small">
                             <li>
@@ -50,13 +53,13 @@
 
                     </div>
 
-                    <div class="col-8 diseDiv" style="font-weight: bold;">
+                    <div class="col-8   " style="font-weight: bold;padding-left: 0px;padding-right:0px;">
 
 
-                        <div class="container">
+                        <div class="container" style="/* background-color:#303066 */ padding-top: 2vw">
 
 
-                            <ul class="nav col-12 col-auto my-2 justify-content-end my-md-0 text-small">
+                            <ul class="nav col-12  my-2 justify-content-end  text-small">
 
 
                                 <li class="tamañoIcon">
@@ -120,7 +123,8 @@
                 </div>
             </div>
             <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28 " preserveAspectRatio="none">
+                viewBox="0 24 150 28 " preserveAspectRatio="none" 
+                style="border-top: solid #303066;">
                 <defs>
                     <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
                     </path>
