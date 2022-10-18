@@ -586,25 +586,58 @@ a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
 }
 
 .probandoBorde{
-  margin-top: 0.5vw!important;
-  text-align: justify!important;
-  background-color: #303066!important;
-  border-radius:30px!important;
-  padding-left: 12px!important;
+  
   padding-right: 12px!important;
-  color: white;
+  color:black;
+  font-size: 1.2vw;
     
 }
 
 .contornoPrin{
+  border-width: 0.3vw!important;
   border-radius:30px!important;
   padding-left: 12px!important;
   padding-right: 12px!important;
   border-width: 1px;
   border-style: solid;
   border-color: #303066;
+  padding-top:2vw;
+  padding-bottom:2vw;
 }
 
 .tamaline{
   line-height:1.2vw;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima{
+  position: absolute;
+  
+  left: 10px;
+  
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fondo {
+  width: 100%;
+  height: 280px;
+  background-image: url("../img/Fondo_1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
