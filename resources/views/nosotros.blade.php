@@ -13,7 +13,7 @@
             <div id="fondo" class="contenedor " >
                 <div class="texto-encima">
                     <div class="row">
-                        <div class="col-7">
+                        <div class="col-6">
                             <label  style="padding: 2vw; " align="left" >
                                 <img src="img/quiensomos.png" style="width: 75%; " class="img-fluid">
                             </label>
@@ -91,7 +91,7 @@
             <div class="col-2">
                 <br>
                 <br>
-                <img class="img-fluid center" src="{{ asset('img/Icon4.png') }}" style="width: 80%; " alt="...">
+                <img class="img-fluid center" src="{{ asset('img/Icon4.png') }}" style="width: 100%; " alt="...">
 
             </div>
 
