@@ -5,6 +5,7 @@
 @section('contenido')
 
     <div class="container">
+        <h2 style="display:none">Paquetes</h2>
 
         <br>
         <br>
@@ -16,31 +17,31 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="text-center col-2 ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="" loading="lazy">
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="Química clínica" loading="lazy">
                         <li><p class="label-mini-icon">Química clínica</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Hema.svg" loading="lazy"
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Hema.svg" alt="Hematología" loading="lazy"
                             class="min-icon">
                         <li><p class="label-mini-icon">Hematología</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Bio.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Bio.svg" alt="Biología molecular"
                             loading="lazy">
                         <li><p class="label-mini-icon">Biología <br> molecular</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Cit.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Cit.svg" alt="Citogenética"
                             loading="lazy">
                         <li><p class="label-mini-icon">Citogenética</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/His.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/His.svg" alt="Histopatología"
                             loading="lazy">
                         <li><p class="label-mini-icon">Histopatología</p></li>
                     </ul>
@@ -50,34 +51,34 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="text-center col-2 ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inm.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inm.svg" alt="Inmunología"
                             loading="lazy">
                         <li><p class="label-mini-icon">Inmunología</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inf.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Inf.svg" alt="Infectología y Urianálisis"
                             loading="lazy">
                         <li><p class="label-mini-icon">Infectología y Urianálisis</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Qui.svg" alt="Inmunoquímica"
                             loading="lazy">
                         <li><p class="label-mini-icon">Inmunoquímica</p>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center col-2  ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Micro.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Micro.svg" alt="Microbiología y Parasitología"
                             loading="lazy">
                         <li><p class="label-mini-icon">Microbiología y Parasitología</p></li>
                     </ul>
                 </div>
                 <div class="text-center col-2 ">
-                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Toxi.svg" alt=""
+                    <ul><img style="background-color: #f6f6f7; width:5vw" src="img/Logos/Toxi.svg" alt="Toxicología"
                             loading="lazy">
                         <li><p class="label-mini-icon">Toxicología </p></li>
                     </ul>

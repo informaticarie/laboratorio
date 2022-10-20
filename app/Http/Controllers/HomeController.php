@@ -48,7 +48,7 @@ class HomeController extends Controller
                            
                               
                           
-                               <img class="card-img-top img__img" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="...">
+                               <img class="card-img-top img__img" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="Estudio para '.$EstudioCovid[$i]['NombreEstudios'].'">
                                 <div class="img__description_layer">
                                 <p class="img__description"><b>'.str_replace('|', ', ', $EstudioCovid[$i]['TipoMuestraEstudios']).'</b></p>
                          
@@ -85,7 +85,7 @@ class HomeController extends Controller
                         <div class=" card disenoHome CambiaCarrusel" href="#!"  id="Estudio' . $EstudioCovid[$i]['idEstudios'] . '" onclick="opnCOvi(' . $EstudioCovid[$i]['idEstudios'] . ')" >
                         <div class="col-12 d-flex flex-column">
                         <div class="row py-2 img__wrap">
-                        <img class="card-img-top img__img" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="...">
+                        <img class="card-img-top img__img" src=\'img/Estudios/'. $EstudioCovid[$i]['ImagenEstudios'] .'\'  alt="Estudio para '.$EstudioCovid[$i]['NombreEstudios'].'">
                             <div class="img__description_layer">
                             <p class="img__description"><b>'.str_replace('|', ', ', $EstudioCovid[$i]['TipoMuestraEstudios']).'</b></p>
                             </div>
@@ -128,7 +128,7 @@ class HomeController extends Controller
                             <div class="col-12 d-flex flex-column " >
                              
                             <div class="row  py-2 img__wrap">
-                            <img class="card-img-top img__img" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="...">
+                            <img class="card-img-top img__img" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="Estudio para '.$PaquetesPromocion[$i]['NombrePaquetes'].'">
                                 
                                 <div class="img__description_layer">
                                 <p class="img__description"><b>'.str_replace('|', ', ', $PaquetesPromocion[$i]['ContienePaquetes']).'</b></p>
@@ -163,7 +163,7 @@ class HomeController extends Controller
                         <div class=" card disenoHome CambiaCarrusel" href="#!"  id="Paquete' . $PaquetesPromocion[$i]['idPaquetes'] . '" onclick="opn(' . $PaquetesPromocion[$i]['idPaquetes'] . ')" >
                         <div class="col-12 d-flex flex-column">
                         <div class="row py-2 img__wrap">
-                         <img class="card-img-top img__img" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="...">
+                         <img class="card-img-top img__img" src=\'img/Paquetes/'. $PaquetesPromocion[$i]['ImagenPaquetes'] .'\'  alt="Estudio para '.$PaquetesPromocion[$i]['NombrePaquetes'].'">
                          <div class="img__description_layer">
                          <p class="img__description"><b>'.str_replace('|', ', ', $PaquetesPromocion[$i]['ContienePaquetes']).'</b></p>
                          </div>
@@ -240,7 +240,7 @@ class HomeController extends Controller
                             <div class="col-12 d-flex flex-column " >
                              
                             <div class="row  py-1 img__wrap">
-                            <img class="card-img-top img__img" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="...">
+                            <img class="card-img-top img__img" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="Estudio para '.$TodosPaquetes[$i]['NombrePaquetes'].'">
                              <div class="img__description_layer">
                              <p class="img__description"><b>'.str_replace('|', ', ', $TodosPaquetes[$i]['ContienePaquetes']).'</b></p>
                              </div>
@@ -282,7 +282,7 @@ class HomeController extends Controller
                         <div class=" card diseno CambiaCarrusel" href="#!"  id="Paquete' . $TodosPaquetes[$i]['idPaquetes'] . '" onclick="opn(' . $TodosPaquetes[$i]['idPaquetes'] . ')" >
                         <div class="col-12 d-flex flex-column">
                         <div class="row py-1 img__wrap">
-                        <img class="card-img-top img__img" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="...">
+                        <img class="card-img-top img__img" src=\'img/Paquetes/'. $TodosPaquetes[$i]['ImagenPaquetes'] .'\'  alt="Estudio para '.$TodosPaquetes[$i]['NombrePaquetes'].'">
                             <div class="img__description_layer">
                             <p class="img__description"><b>'.str_replace('|', ', ', $TodosPaquetes[$i]['ContienePaquetes']).'</b></p>
                             </div>
@@ -327,7 +327,7 @@ class HomeController extends Controller
                             <div class="col-12 d-flex flex-column " >
                              
                             <div class="row  py-2 img__wrap">
-                            <img class="card-img-top img__img" src=\'img/Perfiles/'. $TodosPerfiles[$b]['ImagenPerfiles'] .'\'  alt="...">
+                            <img class="card-img-top img__img" src=\'img/Perfiles/'. $TodosPerfiles[$b]['ImagenPerfiles'] .'\'  alt="Estudio para '.$TodosPerfiles[$b]['NombrePerfiles'].'">
                             <div class="img__description_layer">
                             <p class="img__description"><b>'.str_replace('|', ', ', $TodosPerfiles[$b]['ContienePerfiles']).'</b></p>
                              
@@ -361,7 +361,7 @@ class HomeController extends Controller
                         <div class=" card diseno CambiaCarrusel" href="#!"  id="Perfiles' . $TodosPerfiles[$b]['idPerfiles'] . '" onclick="opn(\'Perfil' . $TodosPerfiles[$b]['idPerfiles'] . '\')"  >
                         <div class="col-12 d-flex flex-column">
                         <div class="row py-2 img__wrap">
-                        <img class="card-img-top img__img" src=\'img/Perfiles/'. $TodosPerfiles[$b]['ImagenPerfiles'] .'\'  alt="...">
+                        <img class="card-img-top img__img" src=\'img/Perfiles/'. $TodosPerfiles[$b]['ImagenPerfiles'] .'\'  alt="Estudio para '.$TodosPerfiles[$b]['NombrePerfiles'].'">
                             <div class="img__description_layer">
                             <p class="img__description"><b>'.str_replace('|', ', ', $TodosPerfiles[$b]['ContienePerfiles']).'</b></p>
                              

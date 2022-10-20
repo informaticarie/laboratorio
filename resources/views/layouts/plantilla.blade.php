@@ -24,10 +24,7 @@
 
 <body>
 
-    <div class="container-fluid" id="app"
-        style="padding-right: var(--bs-gutter-x, 0rem);padding-left: var(--bs-gutter-x, 0rem);">
-
-
+    <div class="container-fluid" id="app" style="padding-right: var(--bs-gutter-x, 0rem);padding-left: var(--bs-gutter-x, 0rem);">
 
         <section id="hero" style=" background-color: #303066;  color:white ">
             <div class="container-fluid  img-fluid"  style="padding-right: 0px;padding-left: 0px;background-image: url('img/general.png');background-size: cover;
@@ -35,6 +32,7 @@
                 <div class="row justify-content-between" style="/* background-color: white; *//* border-bottom-color: #303066; */">
                     
                     <p class="div2"></p>
+                    <h1 style="display:none">ProMédica Laboratorio de Análisis Clíninicos</h1>
                     <div class="col-4" >
 
                         <ul class="nav col-12 col-auto  justify-content-center  text-small">
@@ -46,14 +44,12 @@
                                         confianza!</span>
                                 </a>
                             </li>
-
-
                         </ul>
 
 
                     </div>
 
-                    <div class="col-8   " style="font-weight: bold;padding-left: 0px;padding-right:0px;">
+                    <div class="col-8" style="font-weight: bold;padding-left: 0px;padding-right:0px;">
 
 
                         <div class="container" style="/* background-color:#303066 */ padding-top: 2vw">
@@ -72,7 +68,7 @@
                                     </a>
                                 </li>
                                 <li class="tamañoIcon">
-                                    <a id="titulo1" href="{{ url('Nosotros') }}" class="Cambiando nav-link text-white"
+                                    <a id="titulo1" title="Nosotros" href="{{ url('Nosotros') }}" class="Cambiando nav-link text-white"
                                         align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                             <use xlink:href="{{ url('Nosotros') }}"></use>
@@ -82,7 +78,7 @@
                                     </a>
                                 </li>
                                 <li class="tamañoIcon">
-                                    <a id="titulo2" href="{{ url('Paquetes') }}"
+                                    <a id="titulo2" title="Paquetes" href="{{ url('Paquetes') }}"
                                         class=" Cambiando nav-link text-white" align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                             <use xlink:href="{{ url('Paquetes') }}"></use>
@@ -102,7 +98,7 @@
                                     </a>
                                 </li>-->
                                 <li class="tamañoIcon">
-                                    <a id="titulo4" href="{{ url('Contacto') }}"
+                                    <a id="titulo4" title="Contacto" href="{{ url('Contacto') }}"
                                         class="Cambiando nav-link text-white" align="center">
                                         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                             <use xlink:href="{{ url('Contacto') }}"></use>
@@ -153,9 +149,6 @@
 
         </div>
         <div class="row" style="margin-top: 3vw; margin-right: 0px;padding-right: 0px;padding-left: 0px;">
-
-
-
 
 
             <div class="row alert " style="background-color: #303066; color:white; margin-bottom: 0px;"

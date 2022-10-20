@@ -5,10 +5,12 @@
 @section('contenido')
 
     <div class="container">
-
+        <h2 style="display:none">Nosotros</h2>
         <br>
         <br>
         <div class="row ">
+
+           
 
             <div id="fondo" class="contenedor " >
                 <div class="texto-encima">
