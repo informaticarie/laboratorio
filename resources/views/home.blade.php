@@ -53,33 +53,33 @@
                         <div class="col-4  d-flex flex-column align-items-center mb-5 mb-lg-0">
                             <div class="card card-icon border-0 mb-3">
                                 <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/ambulancia.svg"
-                                    alt="" loading="lazy">
+                                    alt="Consultas a domicilio " loading="lazy">
                             </div>
                             <h4 class="text-center">Tomas de muestra a domicilio</h4>
                         </div>
                         <div class="col-4  d-flex flex-column align-items-center">
                             <div class="card card-icon border-0 mb-3">
-                                <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg" alt=""
+                                <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/reloj.svg" alt="Resultados en menor tiempo"
                                     loading="lazy">
                             </div>
                             <h5 class="text-center">Lunes a Viernes 07:00 a 19:00h Sábados 7:30 a 15:00h</h5>
                         </div>
 
-                        <div class="col-4   d-flex flex-column align-items-center">
+                        <div class="col-4 d-flex flex-column align-items-center">
                             
 
                             <div class="row">
                                 <div class="col-4  d-flex flex-column align-items-center " >
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/whats.svg"
-                                        alt="" loading="lazy">whatsapp
+                                        alt="Resultados por WhatsApp" loading="lazy">whatsapp
                                 </div>
                                 <div class="col-4  d-flex flex-column align-items-center " style="padding-left:2.4vw;">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/resultado.svg"
-                                        alt="" loading="lazy">Impresos
+                                        alt="Resultados Impresos" loading="lazy">Impresos
                                 </div>
                                 <div class="col-4  d-flex flex-column align-items-center" style="padding-left:2.3vw">
                                     <img style="background-color: #f6f6f7; width:5vw" src="img/Logos/email.svg"
-                                        alt="" loading="lazy">Correo
+                                        alt="Resultados por correo" loading="lazy">Correo
                                 </div>
                             </div>
                             <h4 class="text-center">Entrega de resultados </h4>
@@ -98,7 +98,7 @@
 
             <div class="col-8">
 
-                <img src="img/Botones/Covid.png" class="img-fluid" style="width: 40%;margin-bottom: 10px;">
+                <img src="img/Botones/Covid.png" alt="Paquetes para pruebas Covid" class="img-fluid" style="width: 40%;margin-bottom: 10px;">
                 <div class="row justify-content-between">
                     <div class="col-12">
                         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -117,7 +117,7 @@
 
                 </div>
 
-                <img src="img/Botones/Promociones2.gif" class="img-fluid" style="width: 40%;margin-bottom: 10px;">
+                <img src="img/Botones/Promociones2.gif"  alt="Paquetes en promoción " class="img-fluid" style="width: 40%;margin-bottom: 10px;">
                 <div class="row justify-content-between">
                     <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 
@@ -345,7 +345,7 @@
                     <div class="modal-footer" align="right" style="position: absolute;left: 34vw;top: -2vw;">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
                     </div>
-                    <img class="card-img-top" src='img/InfoCovid.jpg' alt="...">
+                    <img class="card-img-top" src='img/InfoCovid.jpg' alt="Servicio a domicilio sin costo extra">
 
 
 
