@@ -26,7 +26,7 @@
 
     <div class="container-fluid" id="app" style="padding-right: var(--bs-gutter-x, 0rem);padding-left: var(--bs-gutter-x, 0rem);">
 
-        <section id="hero" style=" background-color: #303066;  color:white ">
+        <section id="hero" style=" background-color: #282868;  color:white ">
             <div class="container-fluid  img-fluid"  style="padding-right: 0px;padding-left: 0px;background-image: url('img/general.png');background-size: cover;
             background-repeat: no-repeat;">
                 <div class="row justify-content-between" style="/* background-color: white; *//* border-bottom-color: #303066; */">
@@ -40,7 +40,7 @@
                                 <a href="{{ url('/') }}" class="nav-link " align="center">
                                     <img src="{{ asset('img/Logos/logo1.png') }}" class="diseLogo"
                                         style="background-color: white;" class="img-fluid">
-                                    <br /><span style="font-size:2vw;font-weight: bold;color:#303066">¡Tu laboratorio de
+                                    <br /><span style="font-size:2vw;font-weight: bold;color:#282868">¡Tu laboratorio de
                                         confianza!</span>
                                 </a>
                             </li>
@@ -120,7 +120,7 @@
             </div>
             <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28 " preserveAspectRatio="none" 
-                style="border-top: solid #303066;">
+                style="border-top: solid #282868;">
                 <defs>
                     <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
                     </path>
@@ -151,7 +151,7 @@
         <div class="row" style="margin-top: 3vw; margin-right: 0px;padding-right: 0px;padding-left: 0px;">
 
 
-            <div class="row alert " style="background-color: #303066; color:white; margin-bottom: 0px;"
+            <div class="row alert " style="background-color: #282868; color:white; margin-bottom: 0px;"
                 align="center">
                 <div class="container">
 
